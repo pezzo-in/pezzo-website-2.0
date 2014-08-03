@@ -1664,11 +1664,11 @@ h2 i[class^="icon-"]:before, h2 i[class*=" icon-"]:before, h2 i.fa:before {
 
 .stamp img {
     display: block;
-    width: 94px;
-    height: 114px;
-    position: absolute;
-    top: 10px;
+    height: 94px;
     left: 10px;
+    position: absolute;
+    top: 22px;
+    width: 94px;
 }
 
 /* LETTER */
