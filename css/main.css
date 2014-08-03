@@ -2988,7 +2988,9 @@ a.button.colored {
 .portfolio-field img,
 .portfolio-field .fluid-width-video-wrapper,
 .portfolio-field video {
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    /*border: 10px solid #eee;
+    box-shadow: 0 0 1px #333333;*/
 }
 
 .portfolio-title h2 {
