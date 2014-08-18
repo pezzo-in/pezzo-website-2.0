@@ -9,8 +9,8 @@
     <meta name="description" content="cvCard - Responsive HTML5 vCard Template">
     <meta name="keywords" content="vcard, html5, portfolio">
     <meta name="author" content="Pixelwars">
-    <title>cvCard</title> <!-- FAV and TOUCH ICONS -->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <title>PEZZO</title> <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="images/ico/favicon.png">
     <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
     <script src="js/modernizr.custom.js"></script>
     <!-- FONTS -->
@@ -43,6 +43,15 @@
     <link rel="stylesheet" class="base-skin" type="text/css" href="#">
     <!-- InstanceBeginEditable name="head" -->
     <!-- InstanceEndEditable -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-53908315-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 <body>
 <!-- CONTAINER -->
@@ -56,11 +65,11 @@
     <!-- NAV MENU -->
     <ul class="vs-nav">
         <!-- InstanceBeginEditable name="Menu-Content" -->
-        <li><a href="#/about">about us</a></li>
-        <!--<li><a href="#/services">services</a></li>-->
-        <li><a href="#/portfolio">portfolio</a></li>
-        <li><a href="#/contact">contact</a></li>
-        <!--<li><a href="#/blog">blog</a></li>-->
+        <li><a href="#/about" onClick="_gaq.push(['_trackEvent', 'About us']);">about us</a></li>
+        <li><a href="#/services" onClick="_gaq.push(['_trackEvent', 'Services']);">services</a></li>
+        <li><a href="#/portfolio" onClick="_gaq.push(['_trackEvent', 'Portfolio']);">portfolio</a></li>
+        <li><a href="#/contact" onClick="_gaq.push(['_trackEvent', 'Contact']);">contact</a></li>
+        <!-- <li><a href="#/blog">blog</a></li> -->
         <!-- InstanceEndEditable -->
     </ul>
     <!-- NAV MENU -->
@@ -89,14 +98,14 @@
                 <h2>
                     Hello, we provide
                     <span class="rotate-words">
-                        <span>Marketing Consultation.</span>
-                        <span>Branding.</span>
-                        <span>Web Development.</span>
-                        <span>Motion Design.</span>
-                        <span>Graphic Design.</span>
-                        <span>Photography.</span>
-                        <span>Cinematography.</span>
-                        <span>Print.</span>
+                        <span>Marketing Consultation</span>
+                        <span>Branding</span>
+                        <span>Web Development</span>
+                        <span>Motion Design</span>
+                        <span>Graphic Design</span>
+                        <span>Photography</span>
+                        <span>Cinematography</span>
+                        <span>Print</span>
                     </span>
                     <br>
                     We live serving giants, We love serving start-ups <br>
@@ -179,47 +188,53 @@
                     <h4>IDEA</h4>
                 </div>
             </div>
-            <!-- process -->    </div>
+            <!-- process -->    
+        </div>
         <div class="col-xs-6 col-sm-4 col-md-2">        <!-- process -->
             <div class="process">
                 <div class="process-box">
                     <i class="fa fa-puzzle-piece"></i>
-                    <h4>CONCEPT</h4>
+                    <h4>BLUEPRINT</h4>
                 </div>
             </div>
-            <!-- process -->    </div>
+            <!-- process -->    
+        </div>
         <div class="col-xs-6 col-sm-4 col-md-2">        <!-- process -->
             <div class="process">
                 <div class="process-box">
                     <i class="icon-brush"></i>
-                    <h4>DESIGN</h4>
+                    <h4>ANALYSE</h4>
                 </div>
             </div>
-            <!-- process -->    </div>
+            <!-- process -->    
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-2">        <!-- process -->
+            <div class="process">
+                <div class="process-box">
+                    <i class="icon-brush"></i>
+                    <h4>STRATEGY</h4>
+                </div>
+            </div>
+            <!-- process -->    
+        </div>
         <div class="col-xs-6 col-sm-4 col-md-2">        <!-- process -->
             <div class="process">
                 <div class="process-box">
                     <i class="fa fa-code"></i>
-                    <h4>DEVELOP</h4>
+                    <h4>IMPLEMENT</h4>
                 </div>
             </div>
-            <!-- process -->    </div>
+            <!-- process -->    
+        </div>
         <div class="col-xs-6 col-sm-4 col-md-2">        <!-- process -->
             <div class="process">
                 <div class="process-box">
                     <i class="fa fa-bug"></i>
-                    <h4>TEST</h4>
+                    <h4>RESULT</h4>
                 </div>
             </div>
-            <!-- process -->    </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">        <!-- process -->
-            <div class="process">
-                <div class="process-box">
-                    <i class="fa fa-rocket"></i>
-                    <h4>LAUNCH</h4>
-                </div>
-            </div>
-            <!-- process -->    </div>
+            <!-- process -->    
+        </div>
     </div>
     <!-- PROCESS -->
     <h2 class="section-title"><span>FUN FACT</span></h2>
@@ -258,78 +273,79 @@
         </div>
     </div>
     <!-- FUN FACT -->
-    <!--<h2 class="section-title"><span>CLIENTS</span></h2>
-    &lt;!&ndash; CLIENTS &ndash;&gt;
+    <h2 class="section-title"><span>CLIENTS</span></h2>
+    <!-- CLIENTS -->
     <div class="row">
         <div class="col-xs-6 col-sm-4 col-md-2">
-            &lt;!&ndash; client &ndash;&gt;
+            <!-- client -->
             <div class="client">
                 <a href="#">
                     <img src="images/clients/client-01.png" alt="client">
                 </a>
             </div>
-            &lt;!&ndash; client &ndash;&gt;
+            <!-- client -->
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">        &lt;!&ndash; client &ndash;&gt;
+        <div class="col-xs-6 col-sm-4 col-md-2">        <!-- client -->
             <div class="client">
                 <a href="#">
                     <img src="images/clients/client-02.png" alt="client">
                 </a>
             </div>
-            &lt;!&ndash; client &ndash;&gt;    </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">        &lt;!&ndash; client &ndash;&gt;
+            <!-- client -->    </div>
+        <div class="col-xs-6 col-sm-4 col-md-2">        <!-- client -->
             <div class="client">
                 <a href="#">
                     <img src="images/clients/client-03.png" alt="client">
                 </a>
             </div>
-            &lt;!&ndash; client &ndash;&gt;    </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">        &lt;!&ndash; client &ndash;&gt;
+            <!-- client -->    </div>
+        <div class="col-xs-6 col-sm-4 col-md-2">        <!-- client -->
             <div class="client">
                 <a href="#">
                     <img src="images/clients/client-04.png" alt="client">
                 </a>
             </div>
-            &lt;!&ndash; client &ndash;&gt;
+            <!-- client -->
         </div>
         <div class="col-xs-6 col-sm-4 col-md-2">
-            &lt;!&ndash; client &ndash;&gt;
+            <!-- client -->
             <div class="client">
                 <a href="#">
                     <img src="images/clients/client-05.png" alt="client">
                 </a>
             </div>
-            &lt;!&ndash; client &ndash;&gt;
+            <!-- client -->
         </div>
         <div class="col-xs-6 col-sm-4 col-md-2">
-            &lt;!&ndash; client &ndash;&gt;
+            <!-- client -->
             <div class="client">
                 <a href="#">
                     <img src="images/clients/client-06.png" alt="client">
                 </a>
             </div>
-            &lt;!&ndash; client &ndash;&gt;
+            <!-- client -->
         </div>
-    </div>-->
+    </div>
     <!-- CLIENTS -->
 </div>
 </section>
 <!-- PAGE : ABOUT -->
-<!-- PAGE : SERVICES -->
-<!--<section id="services" class="page">
+
+<!-- PAGE : RESUME -->
+<section id="services" class="page">
     <div class="content">
-        &lt;!&ndash; CONTENT &ndash;&gt;
-        &lt;!&ndash; row &ndash;&gt;
+        <!-- CONTENT -->
+        <!-- row -->
         <div class="row">
-            &lt;!&ndash; col 6/12 &ndash;&gt;
-            &lt;!&ndash; <div class="col-md-6">    timeline
+            <!-- col 6/12 -->
+            <div class="col-md-6">    <!-- timeline -->
                 <div class="timeline"><h2><i class="fa fa-flask"></i>WORK HISTORY</h2>
-            
+
                     <div class="event current">
                         <span class="date">2012</span>
                         <h4>Front End Web Developer</h4>
                         <h5>Pixelwars Inc.</h5>
-            
+
                         <p>I currently work for Pixelwars creative studio. I create usable web interfaces, front end
                             coding stuff
                             and almost anything. But i love what i do.</p>
@@ -338,7 +354,7 @@
                         <span class="date">2010</span>
                         <h4>Web Developer</h4>
                         <h5>Google Inc.</h5>
-            
+
                         <p>I worked as a Web Developer at Google for 3 years. I create usable web interfaces, front end
                             coding stuff
                             and almost anything. But i love what i do.</p>
@@ -347,21 +363,21 @@
                         <span class="date">2006</span>
                         <h4>Exclusive Author</h4>
                         <h5>Envato Inc.</h5>
-            
+
                         <p>we are an Elite Author at Envato. I create usable web interfaces, front end coding stuff and
                             almost
                             anything. But i love what i do.</p>
                     </div>
                 </div>
-                timeline
-                timeline
+                <!-- timeline -->
+                <!-- timeline -->
                 <div class="timeline"><h2><i class="icon-college"></i>EDUCATION HISTORY</h2>
-            
+
                     <div class="event">
                         <span class="date">2002</span>
                         <h4>Atom Science</h4>
                         <h5>Stanford University</h5>
-            
+
                         <p>I studied atomic stuff at Stanford University. I create usable web interfaces, front end
                             coding stuff and
                             almost anything. But i love what i do.</p>
@@ -370,7 +386,7 @@
                         <span class="date">2010</span>
                         <h4>Software Engineering</h4>
                         <h5>Harvard University</h5>
-            
+
                         <p>I got my Master Degree at Harvard University. I create usable web interfaces, front end
                             coding stuff and
                             almost anything. But i love what i do.</p>
@@ -379,19 +395,19 @@
                         <span class="date">2006</span>
                         <h4>Computer Science</h4>
                         <h5>MIT</h5>
-            
+
                         <p>I studied Computer Science at MIT. I create usable web interfaces, front end coding stuff and
                             almost
                             anything. But i love what i do.</p>
                     </div>
                 </div>
-                timeline
-            </div> &ndash;&gt;
-            &lt;!&ndash; col 6/12 &ndash;&gt;
-            &lt;!&ndash; col 6/12 &ndash;&gt;
-            <div class="col-md-12"><h2 class="section-title"><span><i class="icon-cog-1"></i>MARKETING CONSULTATION</span>
-            </h2> &lt;!&ndash; DEV SKILLS &ndash;&gt;
-                <div class="skillset">        &lt;!&ndash; .skill-unit &ndash;&gt;
+                <!-- timeline -->
+            </div>
+            <!-- col 6/12 -->
+            <!-- col 6/12 -->
+            <div class="col-md-6"><h2 class="section-title"><span><i class="icon-cog-1"></i>DEVELOPMENT SKILLS</span>
+            </h2> <!-- DEV SKILLS -->
+                <div class="skillset">        <!-- .skill-unit -->
                     <div class="skill-unit">
                         <h4>HTML5</h4>
 
@@ -399,7 +415,7 @@
                             <div class="progress"></div>
                         </div>
                     </div>
-                    &lt;!&ndash; .skill-unit &ndash;&gt;        &lt;!&ndash; .skill-unit &ndash;&gt;
+                    <!-- .skill-unit -->        <!-- .skill-unit -->
                     <div class="skill-unit">
                         <h4>CSS3</h4>
 
@@ -407,7 +423,7 @@
                             <div class="progress"></div>
                         </div>
                     </div>
-                    &lt;!&ndash; .skill-unit &ndash;&gt;        &lt;!&ndash; .skill-unit &ndash;&gt;
+                    <!-- .skill-unit -->        <!-- .skill-unit -->
                     <div class="skill-unit">
                         <h4>jQuery</h4>
 
@@ -415,7 +431,7 @@
                             <div class="progress"></div>
                         </div>
                     </div>
-                    &lt;!&ndash; .skill-unit &ndash;&gt;        &lt;!&ndash; .skill-unit &ndash;&gt;
+                    <!-- .skill-unit -->        <!-- .skill-unit -->
                     <div class="skill-unit">
                         <h4>Wordpress</h4>
 
@@ -423,11 +439,11 @@
                             <div class="progress"></div>
                         </div>
                     </div>
-                    &lt;!&ndash; .skill-unit &ndash;&gt;    </div>
-                &lt;!&ndash; DEV SKILLS &ndash;&gt;
+                    <!-- .skill-unit -->    </div>
+                <!-- DEV SKILLS -->
                 <h2 class="section-title"><span><i class="icon-brush"></i>DESIGN SKILLS</span></h2>
-                &lt;!&ndash; DESIGN SKILLS &ndash;&gt;
-                <div class="skillset">        &lt;!&ndash; .skill-unit &ndash;&gt;
+                <!-- DESIGN SKILLS -->
+                <div class="skillset">        <!-- .skill-unit -->
                     <div class="skill-unit">
                         <h4>Fireworks</h4>
 
@@ -435,7 +451,7 @@
                             <div class="progress"></div>
                         </div>
                     </div>
-                    &lt;!&ndash; .skill-unit &ndash;&gt;        &lt;!&ndash; .skill-unit &ndash;&gt;
+                    <!-- .skill-unit -->        <!-- .skill-unit -->
                     <div class="skill-unit">
                         <h4>Photoshop</h4>
 
@@ -443,7 +459,7 @@
                             <div class="progress"></div>
                         </div>
                     </div>
-                    &lt;!&ndash; .skill-unit &ndash;&gt;        &lt;!&ndash; .skill-unit &ndash;&gt;
+                    <!-- .skill-unit -->        <!-- .skill-unit -->
                     <div class="skill-unit">
                         <h4>Illustrator</h4>
 
@@ -451,11 +467,11 @@
                             <div class="progress"></div>
                         </div>
                     </div>
-                    &lt;!&ndash; .skill-unit &ndash;&gt;    </div>
-                &lt;!&ndash; DESIGN SKILLS &ndash;&gt;
+                    <!-- .skill-unit -->    </div>
+                <!-- DESIGN SKILLS -->
                 <h2 class="section-title"><span><i class="icon-comment"></i>TESTIMONIALS</span></h2>
-                &lt;!&ndash; testo-group &ndash;&gt;
-                <div class="testo-group">        &lt;!&ndash; Testimonial &ndash;&gt;
+                <!-- testo-group -->
+                <div class="testo-group">        <!-- Testimonial -->
                     <div class="testo">
                         <img src="images/site/testo-01.jpg" alt="someone">
                         <h4>Phillip Austin <span>CEO / Gravity Inc.</span></h4>
@@ -466,62 +482,65 @@
                             helped me so
                             much.</p>
                     </div>
-                    &lt;!&ndash; Testimonial &ndash;&gt;
-                    &lt;!&ndash; Testimonial &ndash;&gt;
+                    <!-- Testimonial -->
+                    <!-- Testimonial -->
                     <div class="testo">
                         <img src="images/site/testo-02.jpg" alt="someone">
                         <h4>Gary Morgan <span>Chemist / Freelancer</span></h4>
 
                         <p>He was a great co-worker and a friend. I would't be where we are without his support.</p>
                     </div>
-                    &lt;!&ndash; Testimonial &ndash;&gt;        &lt;!&ndash; Testimonial &ndash;&gt;
+                    <!-- Testimonial -->        <!-- Testimonial -->
                     <div class="testo">
                         <img src="images/site/testo-03.jpg" alt="someone">
                         <h4>Jason Wilson <span>Lab Geek / Miami Metro</span></h4>
 
                         <p>He is ok.</p>
                     </div>
-                    &lt;!&ndash; Testimonial &ndash;&gt;
+                    <!-- Testimonial -->
                 </div>
-                &lt;!&ndash; testo-group &ndash;&gt;
+                <!-- testo-group -->
                 <h2 class="section-title"><span><i class="icon-doc-alt"></i>DOWNLOAD MY CV</span></h2>
 
                 <p>You can download my CV in pdf format if you like. I currently work for Pixelwars creative studio. I
                     create usable
                     web interfaces, front end coding stuff and almost anything. But i love what i do.</p>
-                &lt;!&ndash; DOWNLOAD BUTTON &ndash;&gt;
+                <!-- DOWNLOAD BUTTON -->
                 <div class="download-button">
                     <a href="#" class="button primary">DOWNLOAD CV</a>
                 </div>
-                &lt;!&ndash; DOWNLOAD BUTTON &ndash;&gt;
+                <!-- DOWNLOAD BUTTON -->
                 <h2 class="section-title"><span><i class="icon-linkedin"></i>VIEW MY LINKEDIN PROFILE</span></h2>
 
                 <p>You can view my LinkedIn profile. I currently work for Pixelwars creative studio. I create usable web
                     interfaces,
-                    front end coding stuff and almost anything. But i love what i do.</p> &lt;!&ndash; DOWNLOAD BUTTON &ndash;&gt;
+                    front end coding stuff and almost anything. But i love what i do.</p> <!-- DOWNLOAD BUTTON -->
                 <div class="download-button">
                     <a href="#" class="button primary">MY LINKEDIN PROFILE</a>
                 </div>
-                &lt;!&ndash; DOWNLOAD BUTTON &ndash;&gt;
+                <!-- DOWNLOAD BUTTON -->
             </div>
-            &lt;!&ndash; col 6/12 &ndash;&gt;
+            <!-- col 6/12 -->
         </div>
-        &lt;!&ndash; row &ndash;&gt;
+        <!-- row -->
     </div>
-    &lt;!&ndash; CONTENT &ndash;&gt;
-</section>-->
-<!-- PAGE : SERVICES -->
+    <!-- CONTENT -->
+</section>
+<!-- PAGE : RESUME -->
 <section id="portfolio" class="portfolio page">
     <div class="content">
         <h2 class="section-title center"><span><i class="icon-leaf"></i>MY WORKS</span></h2>
         <ul id="filters" class="filters">
             <li class="current"><a href="#" data-filter="*">ALL</a></li>
-            <li><a href="#" data-filter=".design">DESIGN</a></li>
-            <li><a href="#" data-filter=".coding">CODING</a></li>
-            <li><a href="#" data-filter=".logo">LOGO</a></li>
+            <li><a href="#" data-filter=".marketing">MARKETING</a></li>
+            <li><a href="#" data-filter=".webdesign">WEBDESIGN</a></li>
+            <li><a href="#" data-filter=".branding">BRANDING</a></li>
+            <li><a href="#" data-filter=".photography">PHOTOGRAPHY</a></li>
+            <li><a href="#" data-filter=".print">PRINT</a></li>
+            <li><a href="#" data-filter=".cinematography">CINEMATOGRAPHY</a></li>
         </ul>
         <div class="portfolio-items media-grid" data-layout="masonry">
-            <div class="media-cell design image hentry">
+            <div class="media-cell photography image hentry">
                 <div class="media-box">
                     <img src="images/portfolio/photography/03.jpg" alt="portfolio-post">
 
@@ -547,7 +566,7 @@
                     <p class="category">an illustration work</p>
                 </div>
             </div> -->
-            <div class="media-cell design hentry x2">
+            <div class="media-cell marketing webdesign branding print hentry x2">
                 <div class="media-box">
                     <img src="images/portfolio/neeladhri-ceramics/desktop1.png" alt="portfolio-post">
 
@@ -560,7 +579,7 @@
                     <p class="category">Photography &amp; Webdesign</p>
                 </div>
             </div>
-            <div class="media-cell design hentry x2">
+            <div class="media-cell webdesign branding photography print hentry x2">
                 <div class="media-box">
                     <img src="images/portfolio/parva/thumbnail.png" alt="portfolio-post">
 
@@ -573,7 +592,7 @@
                     <p class="category">Branding, Photography &amp; Website</p>
                 </div>
             </div>
-            <div class="media-cell design image hentry">
+            <div class="media-cell photography image hentry">
                 <div class="media-box">
                     <img src="images/portfolio/photography/02.jpg" alt="portfolio-post">
 
@@ -586,7 +605,7 @@
                     <h3>Classicals</h3>
                 </div>
             </div>
-            <div class="media-cell design hentry x2">
+            <div class="media-cell marketing webdesign branding photography print hentry x2">
                 <div class="media-box">
                     <img src="images/portfolio/castle-key/desktop.png" alt="portfolio-post">
 
@@ -599,7 +618,7 @@
                     <p class="category">Branding, Photography &amp; Website</p>
                 </div>
             </div>
-            <div class="media-cell design hentry x2">
+            <div class="media-cell print cinematography hentry x2">
                 <div class="media-box">
                     <img src="images/portfolio/pearson/thumbnail.jpg" alt="portfolio-post">
 
@@ -796,8 +815,8 @@
             <!-- column 6/12 -->
             <!-- column 6/12 -->
             <div class="col-md-6">
-                <!--<h2 class="section-title"><span><i class="icon-chat"></i>LET'S SOCIALIZE</span></h2> &lt;!&ndash; SOCIAL &ndash;&gt;
-                <ul class="social">
+                <!-- <h2 class="section-title"><span><i class="icon-chat"></i>LET'S SOCIALIZE</span></h2> --> <!-- SOCIAL -->
+                <!--<ul class="social">
                     <li><a class="facebook" href="#"></a></li>
                     <li><a class="twitter" href="#"></a></li>
                     <li><a class="linkedin" href="#"></a></li>
@@ -825,9 +844,9 @@
                     <li><a class="foursquare" href="#"></a></li>
                     <li><a class="xing" href="#"></a></li>
                     <li><a class="weibo" href="#"></a></li>
-                    &lt;!&ndash;<li><a class="soundcloud" href="#"></a></li>
+                    <li><a class="soundcloud" href="#"></a></li>
                     <li><a class="fivehundredpx" href="#"></a></li>
-                    <li><a class="slideshare" href="#"></a></li>&ndash;&gt;
+                    <li><a class="slideshare" href="#"></a></li>
                 </ul>-->
                 <!-- SOCIAL -->
                 <h2 class="section-title"><span><i class="icon-location"></i>LOCATION</span></h2>
@@ -845,12 +864,12 @@
 </section>
 <!-- PAGE : CONTACT -->
 <!-- PAGE : BLOG -->
-<!--<section id="blog" class="page">
+<!-- <section id="blog" class="page">
     <div class="content">
         <h2 class="section-title center"><span><i class="icon-book-open"></i>LATEST FROM THE BLOG</span></h2>
-        &lt;!&ndash; LATEST POSTS &ndash;&gt;
+        LATEST POSTS
         <div class="latest-posts media-grid" data-layout="fitRows">
-            &lt;!&ndash; post &ndash;&gt;
+            post
             <article class="hentry media-cell">
                 <div class="media-box">
                     <img src="images/blog/blog-01.png" alt="post-image">
@@ -864,8 +883,8 @@
                     <h3><a href="blog-single.html">20 Best Practices For Designing Better UIs</a></h3>
                 </header>
             </article>
-            &lt;!&ndash; post &ndash;&gt;
-            &lt;!&ndash; post &ndash;&gt;
+            post
+            post
             <article class="hentry media-cell">
                 <div class="media-box">
                     <img src="images/blog/blog-07.png" alt="post-image">
@@ -879,8 +898,8 @@
                     <h3><a href="blog-single.html">40 Inspirational Magazine Designs That You Should See</a></h3>
                 </header>
             </article>
-            &lt;!&ndash; post &ndash;&gt;
-            &lt;!&ndash; post &ndash;&gt;
+            post
+            post
             <article class="hentry media-cell">
                 <div class="media-box">
                     <img src="images/blog/blog-03.png" alt="post-image">
@@ -894,8 +913,8 @@
                     <h3><a href="blog-single.html">Creating a New Typeface For Your Next Project</a></h3>
                 </header>
             </article>
-            &lt;!&ndash; post &ndash;&gt;
-            &lt;!&ndash; post &ndash;&gt;
+            post
+            post
             <article class="hentry media-cell">
                 <div class="media-box">
                     <img src="images/blog/blog-04.png" alt="post-image">
@@ -909,8 +928,8 @@
                     <h3><a href="blog-single.html">Sketching a Monster Made by Stone From Scratch</a></h3>
                 </header>
             </article>
-            &lt;!&ndash; post &ndash;&gt;
-            &lt;!&ndash; post &ndash;&gt;
+            post
+            post
             <article class="hentry media-cell">
                 <div class="media-box">
                     <img src="images/blog/blog-05.png" alt="post-image">
@@ -924,8 +943,8 @@
                     <h3><a href="blog-single.html">Designing a Physics Based iOS Game From Scratch</a></h3>
                 </header>
             </article>
-            &lt;!&ndash; post &ndash;&gt;
-            &lt;!&ndash; post &ndash;&gt;
+            post
+            post
             <article class="hentry media-cell">
                 <div class="media-box">
                     <img src="images/blog/blog-06.png" alt="post-image">
@@ -939,8 +958,8 @@
                     <h3><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
                 </header>
             </article>
-            &lt;!&ndash; post &ndash;&gt;
-            &lt;!&ndash; post &ndash;&gt;
+            post
+            post
             <article class="hentry media-cell">
                 <div class="media-box">
                     <img src="images/blog/blog-02.png" alt="post-image">
@@ -954,8 +973,8 @@
                     <h3><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
                 </header>
             </article>
-            &lt;!&ndash; post &ndash;&gt;
-            &lt;!&ndash; post &ndash;&gt;
+            post
+            post
             <article class="hentry media-cell">
                 <div class="media-box">
                     <img src="images/blog/blog-08.png" alt="post-image">
@@ -969,12 +988,12 @@
                     <h3><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
                 </header>
             </article>
-            &lt;!&ndash; post &ndash;&gt;
+            post
         </div>
-        &lt;!&ndash; LATEST POSTS &ndash;&gt;
+        LATEST POSTS
         <p class="launch"><a class="button primary" href="blog.html">SEE ALL POSTS</a></p>
     </div>
-</section>-->
+</section> -->
 <!-- PAGE : BLOG -->
 <!-- InstanceEndEditable -->
 </div>
