@@ -55,7 +55,7 @@ body {
 }
 
 a {
-    color: #096;
+    color: #86D7E2;
     text-decoration: none;
     outline: none;
 }
@@ -1429,6 +1429,7 @@ h2 i[class^="icon-"]:before, h2 i[class*=" icon-"]:before, h2 i.fa:before {
 .timeline h2 {
     position: relative;
     margin-bottom: 2em;
+    color: #86D7E2;
 }
 
 .timeline h2 [class^="icon-"], .timeline h2 [class*=" icon-"], .timeline h2 .fa {
@@ -1520,11 +1521,12 @@ h2 i[class^="icon-"]:before, h2 i[class*=" icon-"]:before, h2 i.fa:before {
     font-size: 0.9em;
     text-transform: uppercase;
     font-weight: 800;
-    color: #d1dbdc;
+    color: #334455;
 }
 
 .event p {
-    margin: .6em 0 .2em 0
+    margin: .6em 0 .2em 0;
+    color: #999999;
 }
 
 .event p:before {
@@ -2121,7 +2123,7 @@ h2 i[class^="icon-"]:before, h2 i[class*=" icon-"]:before, h2 i.fa:before {
     position: relative;
     background: #FFF;
     margin-left: 0%;
-    background: #86D7E2;;
+    background: #86D7E2;
 }
 
 .media-cell-desc .date .day {
@@ -2195,7 +2197,7 @@ h2 i[class^="icon-"]:before, h2 i[class*=" icon-"]:before, h2 i.fa:before {
     text-align: center;
     content: "\f0ca";
     color: #fff;
-    background: #096;
+    background: #86D7E2;
     border-radius: 50%;
 }
 
@@ -2327,7 +2329,7 @@ input[type=button],
 button.colored,
 a.button.colored {
     color: #fff;
-    background-color: #096;
+    background-color: #86D7E2;
     border-color: transparent;
 }
 
@@ -3096,8 +3098,8 @@ a.button.colored {
 }
 
 .portfolio-nav a.button:hover {
-    color: #096;
-    border-color: #096;
+    color: #86D7E2;
+    border-color: #86D7E2;
     background: none;
 }
 
@@ -3148,7 +3150,7 @@ a.button.colored {
 }
 
 .entry-title a:hover {
-    color: #096
+    color: #86D7E2
 }
 
 /* entry-meta */
@@ -3271,7 +3273,7 @@ a.more-link {
 }
 
 a.more-link:hover {
-    background: #096
+    background: #86D7E2
 }
 
 /* featured image */
@@ -3352,7 +3354,7 @@ a.more-link:hover {
 }
 
 .format-link .link-content > a:first-child:hover {
-    border-color: #096
+    border-color: #86D7E2
 }
 
 .format-link header {
@@ -3490,13 +3492,13 @@ a.more-link:hover {
 }
 
 .flex-control-paging li a:hover {
-    border-color: #096;
+    border-color: #86D7E2;
     background: none;
 }
 
 .flex-control-paging li a.flex-active {
     border-color: transparent;
-    background: #096;
+    background: #86D7E2;
 }
 
 /* aside  */
@@ -3672,7 +3674,7 @@ a.more-link:hover {
 
 .mejs-controls .mejs-time-rail .mejs-time-current,
 .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
-    background: #096
+    background: #86D7E2
 }
 
 .mejs-overlay-loading {
@@ -3851,16 +3853,16 @@ a.more-link:hover {
 .comment-meta a:hover,
 .comment-meta .fn + a:hover,
 .comment-reply-link:hover {
-    color: #096
+    color: #86D7E2
 }
 
 /* comment by post author  */
 .bypostauthor > article {
-    border-color: #096
+    border-color: #86D7E2
 }
 
 .bypostauthor > article:before {
-    border-right-color: #096
+    border-right-color: #86D7E2
 }
 
 /* COMMENT FORM */
@@ -4495,7 +4497,7 @@ body {
 
 /* Links */
 a {
-    color: #096;
+    color: #86D7E2;
 }
 
 a:hover {
@@ -4532,7 +4534,7 @@ a:hover {
     background: #E25E5B;
 }
 
-/* PRIMARY COLOR : #096
+/* PRIMARY COLOR : #86D7E2
    ================================================== */
 .navigation a:hover,
 .pagination a:hover,
@@ -4544,7 +4546,7 @@ a.more-link:hover,
 .flex-control-paging li a.flex-active,
 .mejs-controls .mejs-time-rail .mejs-time-current,
 .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
-    background: #096
+    background: #86D7E2
 }
 
 .entry-title a:hover,
@@ -4554,14 +4556,14 @@ a.more-link:hover,
 .comment-meta a:hover,
 .comment-meta .fn + a:hover,
 .comment-reply-link:hover {
-    color: #096
+    color: #86D7E2
 }
 
 .portfolio-nav a.button:hover,
 .format-link .link-content > a:first-child:hover,
 .flex-control-paging li a:hover,
 .bypostauthor > article {
-    border-color: #096
+    border-color: #86D7E2
 }
 
 /* SECONDARY COLOR : #86D7E2 - lighter than primary color
@@ -4579,4 +4581,9 @@ a.more-link:hover,
 #nprogress .spinner-icon {
     border-top-color: #86D7E2;
     border-left-color: #86D7E2;
+}
+
+.letter-info p i.address-icon {
+    float: left;
+    margin-bottom: 40px;
 }
