@@ -8,8 +8,8 @@
     <meta name="keywords"
           content="marketing consultation, web development, branding, seo, smm, social media marketing, creative designing, creative writing, print solutions, photography, cinematography, motion graphics, bangalore, mobile application development, marketing consultation, brand consultation, graphic designing">
     <meta name="author" content="PEZZO">
-    <link rel="image_src" href="images/site/thumbnail.png" />
-    <link rel="image_src" href="images/site/badge.png" />
+    <link rel="image_src" href="images/site/thumbnail.png"/>
+    <link rel="image_src" href="images/site/badge.png"/>
     <title>PEZZO</title> <!-- FAV and TOUCH ICONS -->
     <link rel="shortcut icon" href="images/ico/favicon.png">
     <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
@@ -970,19 +970,22 @@
                 <!-- LETTER -->
                 <h2 class="section-title"><span><i class="icon-paper-plane"></i>DROP US A LINE</span></h2>
                 <!-- .contact-form -->
-                <div class="contact-form">
-                    <form id="contact-form" action="send-mail.php" method="post">
+                <div id="contact-form">
+                    <div id="fields">
+                        <?php
+                        // display form if user has not clicked submit
+                        if (!isset($_POST["submit"])) {
+                            ?>
+                        <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
                         <!-- enter mail subject here -->
-                        <input type="hidden" name="subject" id="subject" value="You have a new message from PEZZO!">
-
                         <p>
                             <label for="name">NAME</label>
-                            <input type="text" name="name" id="name" class="required">
+                            <input type="text" name="from" id="name" class="required">
                         </p>
 
                         <p>
                             <label for="email">EMAIL</label>
-                            <input type="text" name="email" id="email" class="required email">
+                            <input type="text" name="subject" id="email" class="required email">
                         </p>
 
                         <p>
@@ -991,10 +994,29 @@
                         </p>
 
                         <p>
-                            <input type="submit" class="submit button primary" value="SEND">
+                            <input type="submit" name="submit" class="submit button primary" value="SEND">
                         </p>
-                    </form>
+                        </form>
+                        <?php
+                                } else {    // the user has submitted the form
+                                // Check if the "from" input field is filled out
+                                if (isset($_POST["from"])) {
+                                $from = $_POST["from"]; // sender
+                                $subject = $_POST["subject"];
+                                $message = $_POST["message"];
+                                // message lines should not exceed 70 characters (PHP rule), so wrap it
+                                $message = wordwrap($message, 70);
+                                // send mail
+                                mail("pavan.sry@gmail.com",$subject,$message,"From: $from\n");
+                                echo "Thank you for contacting Pezzo. Our team will get back to you soon";
+                            }
+                        }
+                    ?>
+
+                    </div>
+                    <div id="note"></div>
                 </div>
+
                 <!-- .contact-form -->
             </div>
             <!-- column 6/12 -->

@@ -311,7 +311,7 @@ input:not([type=submit]):not([type=button]):not([type=file]):not([type=radio]):n
 textarea,
 select {
     padding: .8em;
-    width: 262px;
+    width: 100%;
     max-width: 100%;
     font-size: 1em;
     color: #6A7686;
@@ -340,7 +340,7 @@ select {
 }
 
 textarea {
-    width: 50%;
+    width: 100%;
     min-width: 262px;
     min-height: 12em;
 }
