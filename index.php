@@ -791,7 +791,7 @@
 </div>
 <div class="media-cell branding print marketing hentry x1">
     <div class="media-box">
-        <img src="images/portfolio/money-and-me/1.jpg" alt="portfolio-post">
+        <img src="images/portfolio/money-and-me/thumbnail.jpg" alt="portfolio-post">
 
         <div class="mask"></div>
         <a href="portfolio-money-and-me.html" class="ajax"></a>
