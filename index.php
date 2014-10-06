@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Marketing consultation">
+    <meta name="description" content="PEZZO Marketing consultation">
     <meta name="keywords"
           content="marketing consultation, web development, branding, seo, smm, social media marketing, creative designing, creative writing, print solutions, photography, cinematography, motion graphics, bangalore, mobile application development, marketing consultation, brand consultation, graphic designing">
     <meta name="author" content="PEZZO">
