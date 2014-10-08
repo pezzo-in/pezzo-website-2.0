@@ -74,10 +74,10 @@
     <!-- NAV MENU -->
     <ul class="vs-nav">
         <!-- InstanceBeginEditable name="Menu-Content" -->
-        <li><a href="#/about" onClick="_gaq.push(['_trackEvent', 'About us']);">about us</a></li>
-        <li><a href="#/services" onClick="_gaq.push(['_trackEvent', 'Services']);">services</a></li>
-        <li><a href="#/portfolio" onClick="_gaq.push(['_trackEvent', 'Portfolio']);">portfolio</a></li>
-        <li><a href="#/contact" onClick="_gaq.push(['_trackEvent', 'Contact']);">contact</a></li>
+        <li><a href="#/about" onClick="_gaq.push(['_trackEvent', 'About us']);">About us</a></li>
+        <li><a href="#/services" onClick="_gaq.push(['_trackEvent', 'Services']);">Services</a></li>
+        <li><a href="#/portfolio" onClick="_gaq.push(['_trackEvent', 'Portfolio']);">Portfolio</a></li>
+        <li><a href="#/contact" onClick="_gaq.push(['_trackEvent', 'Contact']);">Contact</a></li>
         <!-- <li><a href="#/blog">blog</a></li> -->
         <!-- InstanceEndEditable -->
     </ul>
