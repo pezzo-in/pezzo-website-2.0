@@ -130,9 +130,19 @@ dd:before,
 
 /* ----- 1.3 TYPOGRAPHY ----- */
 /* headings and paragraphs  */
+/* here i created a class for h1 tag for SEO ranking*/
+.seospecial h1{
+     font-size: 1.20em;
+    margin: 1.0em 0 .6em 0;
+}
+.seospecal2 h1 {
+    font-size: 1.00em;
+    margin: 1.0em 0 .8em 0;
+}
 h1 {
-    font-size: 2.20em;
+    font-size: 1.20em;
     margin: 0.8em 0 0.4em 0;
+   
 }
 
 h2 {
@@ -149,11 +159,6 @@ h3 {
 h4 {
     font-size: 1.00em;
     margin: 2.0em 0 .6em 0;
-}
-
-h5 {
-    font-size: 1.00em;
-    margin: 1.0em 0 .8em 0;
 }
 
 h6 {
@@ -694,7 +699,7 @@ a.more-link,
     -webkit-backface-visibility: hidden;
 }
 
-.header h1 {
+.header #h1special h1{
     margin: .9em 0 0 0;
     padding: 0;
     font-weight: 300;

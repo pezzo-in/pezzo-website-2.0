@@ -2,15 +2,16 @@
 <html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true"
       data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
 <head>
+	<title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="PEZZO Marketing consultation">
+    <meta name="description" content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
     <meta name="keywords"
-          content="marketing consultation, web development, branding, seo, smm, social media marketing, creative designing, creative writing, print solutions, photography, cinematography, motion graphics, bangalore, mobile application development, marketing consultation, brand consultation, graphic designing">
-    <meta name="author" content="PEZZO">
+          content="marketing consultation- web development, branding, consultation, seo, sem, smm, digital marketing, website optimization, web page optimization, digital, marketing, search engine marketing, search engine, social media marketing, creative designing, creative writing, print solutions, photography, cinematography, motion graphics, bangalore, mobile application development, marketing consultation, brand consultation, graphic designing, Search engine, search engine optimization, optimization, website, web, web development, web page">
+    <meta name="author" content="PEZZO"><meta name="robots" content="index,follow">
     <link rel="image_src" href="images/site/thumbnail.png"/>
     <link rel="image_src" href="images/site/badge.png"/>
-    <title>PEZZO</title> <!-- FAV and TOUCH ICONS -->
+    <!-- FAV and TOUCH ICONS -->
     <link rel="shortcut icon" href="images/ico/favicon.png">
     <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
     <script src="js/modernizr.custom.js"></script>
@@ -68,15 +69,15 @@
 <header class="header">
     <!-- <img src="images/site/badge.png" alt="avatar"> -->
 
-    <h1><img src="images/site/logo-prime.png" alt=""/></h1>
+    <h1 id="h1special"><img src="images/site/logo-prime.png" alt=""/></h1>
     <!--<p>marketing consultants</p>-->
     <!-- NAV MENU -->
     <ul class="vs-nav">
         <!-- InstanceBeginEditable name="Menu-Content" -->
-        <li><a href="#/about" onClick="_gaq.push(['_trackEvent', 'About us']);">about us</a></li>
-        <li><a href="#/services" onClick="_gaq.push(['_trackEvent', 'Services']);">services</a></li>
-        <li><a href="#/portfolio" onClick="_gaq.push(['_trackEvent', 'Portfolio']);">portfolio</a></li>
-        <li><a href="#/contact" onClick="_gaq.push(['_trackEvent', 'Contact']);">contact</a></li>
+        <li><a href="#/about" onClick="_gaq.push(['_trackEvent', 'About us']);">About us</a></li>
+        <li><a href="#/services" onClick="_gaq.push(['_trackEvent', 'Services']);">Services</a></li>
+        <li><a href="#/portfolio" onClick="_gaq.push(['_trackEvent', 'Portfolio']);">Portfolio</a></li>
+        <li><a href="#/contact" onClick="_gaq.push(['_trackEvent', 'Contact']);">Contact</a></li>
         <!-- <li><a href="#/blog">blog</a></li> -->
         <!-- InstanceEndEditable -->
     </ul>
@@ -489,14 +490,14 @@
 
         <div class="event current">
             <span class="date">&amp;</span>
-            <h5>Campaign Planning</h5>
+            <h1 class="seospecial2">Campaign Planning</h5>
 
             <p>We plan effective campaigns to bring up product, brand and service credibility. Campaigns planned by
                 PEZZO are carefully thought, detailed and well executed.</p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Brand consultation</h5>
+            <h1 class="seospecial2">Brand consultation</h5>
 
             <p>We build strong brands that make good impressions in the hearts and minds. Whether it's a revamp of an
                 existing identity or a more comprehensive strategic brand exercise or designing a brand ambassador
@@ -504,14 +505,14 @@
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Marketing Strategy</h5>
+            <h1 class="seospecial2">Marketing Strategy</h5>
 
             <p>We do a thorough market analysis to come up with the right target market where we can penetrate deeper
                 and give users the right perspective about the product and stick it in mind.</p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Creative Writing</h5>
+            <h1 class="seospecial2">Creative Writing</h5>
 
             <p>Writings are the way to touch users' thoughts. This is the voice of a company to its users. Great
                 write-ups can stay in users' mind for long time and make them use the product and visualize the service
@@ -522,7 +523,7 @@
 
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>E-Commerce</h5>
+            <h1 class="seospecial2">E-Commerce</h5>
 
             <p>In modern world every product is available online. Due to increase in internet literacy and availability,
                 many people are flowing online to shop products, which inturn creating lot of social capital for
@@ -530,7 +531,7 @@
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Enterprise solutions</h5>
+            <h1 class="seospecial2">Enterprise solutions</h5>
 
             <p>Every enterprise needs an online management, maintenance or socializing tool which will make it easier to
                 maintain Human resources or services. We help companies find gaps in system and fill them using
@@ -538,7 +539,7 @@
         </div>
         <div class="event current">
             <span class="date">&amp;</span>
-            <h5>SEO &amp; SMM</h5>
+            <h1 class="seospecial2">SEO &amp; SMM</h5>
 
             <p>Online marketing has boosted to be one of the most effective and proven marketing. Serving millions of
                 consumers everyday and helping companies advertise their products in much cheaper and intelligent manner
@@ -546,7 +547,7 @@
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Mobile applications</h5>
+            <h1 class="seospecial2">Mobile applications</h5>
 
             <p>Due to increase in mobile devices, there is a need for every business to market themselves on mobile or
                 keep customers entertained on the go. To cater all our client's needs, we do develop mobile applications
@@ -559,7 +560,7 @@
 
         <div class="event current">
             <span class="date">&amp;</span>
-            <h5>Motion graphics</h5>
+            <h1 class="seospecial2">Motion graphics</h5>
 
             <p>The art of capturing/creating a composition with aesthetics is motion design. With expertise in 3D/2D
                 animation in a trend setter minimal design, we make everything that moves on screen look so good that
@@ -567,21 +568,21 @@
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Graphic design</h5>
+            <h1 class="seospecial2">Graphic design</h5>
 
             <p>With over 20 years of experience in this domain we deliver the most unique, standout and professional
                 designs with minimalist approach. </p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Branding</h5>
+            <h1 class="seospecial2">Branding</h5>
 
             <p>To succeed in branding you must understand the needs and wants of your customers and prospects. You do
                 this by integrating your brand strategies through your company at every point of public contact.</p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Print</h5>
+            <h1 class="seospecial2">Print</h5>
 
             <p>Experts in executing print on any media with optimized color solution. Specialized in custom merchandise
                 and various signage services. We strive to print anything on everything.</p>
@@ -591,14 +592,14 @@
 
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Film making</h5>
+            <h1 class="seospecial2">Film making</h5>
 
             <p>People are so accustomed to all the live movements around us that we forget the beauty of it. Our keen
                 eye makes live action footage as a breathtaking experience.</p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Still Photography</h5>
+            <h1 class="seospecial2">Still Photography</h5>
 
             <p>A picture speaks a thousand words. What better than a photograph to explain those precious moments with
                 your loved ones? With an expertise in candid photography we capture those precious moments for you to
@@ -606,7 +607,7 @@
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h5>Editing</h5>
+            <h1 class="seospecial2">Editing</h5>
 
             <p>Editing is one of the most important components of the entire film industry and professional video
                 production. Editing, or how the video is finally assembled and put together, can make all the difference
@@ -669,7 +670,7 @@
         </div>
     </div>
     <div class="media-cell-desc">
-        <h3>Dark spray</h3>
+        <h1 class="seospecial">Dark spray</h3>
     </div>
 </div>
 <!-- <div class="media-cell coding hentry">
@@ -680,7 +681,7 @@
         <a href="portfolio-item-02.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>On The Desert</h3>
+        <h1 class="seospecial">On The Desert</h3>
 
         <p class="category">an illustration work</p>
     </div>
@@ -693,7 +694,7 @@
         <a href="portfolio-bittye.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>BITTYE</h3>
+        <h1 class="seospecial">BITTYE</h3>
 
         <p class="category">Photography &amp; Webdesign</p>
     </div>
@@ -706,7 +707,7 @@
         <a href="portfolio-neeladhri-ceramics.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>Neeladhri Ceramics</h3>
+        <h1 class="seospecial">Neeladhri Ceramics</h3>
 
         <p class="category">Photography &amp; Webdesign</p>
     </div>
@@ -719,7 +720,7 @@
         <a href="portfolio-parva.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>Parva</h3>
+        <h1 class="h1special">Parva</h3>
 
         <p class="category">Branding, Photography &amp; Website</p>
     </div>
@@ -734,7 +735,7 @@
         </div>
     </div>
     <div class="media-cell-desc">
-        <h3>Classicals</h3>
+        <h1 class="h1special">Classicals</h3>
     </div>
 </div>
 <div class="media-cell marketing webdesign branding photography print hentry x1">
@@ -745,7 +746,7 @@
         <a href="portfolio-castle-key.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>Castle key</h3>
+        <h1 class="h1special">Castle key</h3>
 
         <p class="category">Branding, Photography &amp; Website</p>
     </div>
@@ -758,7 +759,7 @@
         <a href="portfolio-pearson.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>Pearson</h3>
+        <h1 class="seospecial">Pearson</h3>
 
         <p class="category">Cinematography &amp; Design</p>
     </div>
@@ -771,7 +772,7 @@
         <a href="portfolio-mysmaty.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>MySmaty</h3>
+        <h1 class="seospecial">MySmaty</h3>
 
         <p class="category">Cinematography &amp; Design</p>
     </div>
@@ -784,7 +785,7 @@
         <a href="portfolio-axiom.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>Axiom</h3>
+        <h1 class="seospecial">Axiom</h3>
 
         <p class="category">Cinematography &amp; Design</p>
     </div>
@@ -797,7 +798,7 @@
         <a href="portfolio-money-and-me.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>Money &amp; me</h3>
+        <h1 class="seospecial">Money &amp; me</h3>
 
         <p class="category">Cinematography &amp; Design</p>
     </div>
@@ -810,7 +811,7 @@
         <a href="portfolio-axinovate.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>Axinovate</h3>
+        <h1 class="seospecial">Axinovate</h3>
 
         <p class="category">Cinematography &amp; Design</p>
     </div>
@@ -824,7 +825,7 @@
            title="Paper by FiftyThree" data-lightbox-gallery="fancybox-item-03" class="lightbox iframe"></a>
     </div>
     <div class="media-cell-desc">
-        <h3>Sleepy Games</h3>
+        <h1 class="seospecial">Sleepy Games</h3>
 
         <p class="category">lightbox video</p>
     </div>
@@ -840,7 +841,7 @@
             lightbox - soundcloud            </div>
     </div>
     <div class="media-cell-desc">
-        <h3>Empty Battery</h3>
+        <h1 class="seospecial">Empty Battery</h3>
 
         <p class="category">lightbox soundcloud</p>
     </div>
@@ -862,7 +863,7 @@
             lightbox - gallery            </div>
     </div>
     <div class="media-cell-desc">
-        <h3>Wizard Adventure</h3>
+        <h1 class="seospecial">Wizard Adventure</h3>
 
         <p class="category">lightbox gallery</p>
     </div>
@@ -878,7 +879,7 @@
         </div>
     </div>
     <div class="media-cell-desc">
-        <h3>Shinny Robot</h3>
+        <h1 class="seospecial">Shinny Robot</h3>
 
         <p class="category">an illustration work</p>
     </div>
@@ -893,7 +894,7 @@
         </div>
     </div>
     <div class="media-cell-desc">
-        <h3>Virus Protection</h3>
+        <h1 class="seospecial">Virus Protection</h3>
 
         <p class="category">an illustration work</p>
     </div>
@@ -907,7 +908,7 @@
         </div>
     </div>
     <div class="media-cell-desc">
-        <h3>Red Diamond</h3>
+        <h1 class="seospecial">Red Diamond</h3>
 
         <p class="category">an illustration work</p>
     </div>
@@ -921,7 +922,7 @@
         </div>
     </div>
     <div class="media-cell-desc">
-        <h3>Sky is The Limit</h3>
+        <h1 class="seospecial">Sky is The Limit</h3>
 
         <p class="category">an illustration work</p>
     </div>
@@ -935,7 +936,7 @@
         </div>
     </div>
     <div class="media-cell-desc">
-        <h3>Behind The Eyes</h3>
+        <h1 class="seospecial">Behind The Eyes</h3>
 
         <p class="category">an illustration work</p>
     </div>
@@ -1088,7 +1089,7 @@
                 <header class="media-cell-desc">
                     <span title="2013" class="date"><span class="day">18</span>oct</span>
 
-                    <h3><a href="blog-single.html">20 Best Practices For Designing Better UIs</a></h3>
+                    <h1 class="seospecial"><a href="blog-single.html">20 Best Practices For Designing Better UIs</a></h3>
                 </header>
             </article>
             post
@@ -1103,7 +1104,7 @@
                 <header class="media-cell-desc">
                     <span title="2013" class="date"><span class="day">11</span>oct</span>
 
-                    <h3><a href="blog-single.html">40 Inspirational Magazine Designs That You Should See</a></h3>
+                    <h1 class="seospecial"><a href="blog-single.html">40 Inspirational Magazine Designs That You Should See</a></h3>
                 </header>
             </article>
             post
@@ -1118,7 +1119,7 @@
                 <header class="media-cell-desc">
                     <span title="2013" class="date"><span class="day">27</span>sep</span>
 
-                    <h3><a href="blog-single.html">Creating a New Typeface For Your Next Project</a></h3>
+                    <h1 class="seospecial"><a href="blog-single.html">Creating a New Typeface For Your Next Project</a></h3>
                 </header>
             </article>
             post
@@ -1133,7 +1134,7 @@
                 <header class="media-cell-desc">
                     <span title="2013" class="date"><span class="day">14</span>jun</span>
 
-                    <h3><a href="blog-single.html">Sketching a Monster Made by Stone From Scratch</a></h3>
+                    <h1 class="seospecial"><a href="blog-single.html">Sketching a Monster Made by Stone From Scratch</a></h3>
                 </header>
             </article>
             post
@@ -1148,7 +1149,7 @@
                 <header class="media-cell-desc">
                     <span title="2013" class="date"><span class="day">05</span>jun</span>
 
-                    <h3><a href="blog-single.html">Designing a Physics Based iOS Game From Scratch</a></h3>
+                    <h1 class="seospecial"><a href="blog-single.html">Designing a Physics Based iOS Game From Scratch</a></h3>
                 </header>
             </article>
             post
@@ -1163,7 +1164,7 @@
                 <header class="media-cell-desc">
                     <span title="2013" class="date"><span class="day">03</span>may</span>
 
-                    <h3><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
+                    <h1 class="seospecial"><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
                 </header>
             </article>
             post
@@ -1178,7 +1179,7 @@
                 <header class="media-cell-desc">
                     <span title="2013" class="date"><span class="day">03</span>may</span>
 
-                    <h3><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
+                    <h1 class="seospecial"><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
                 </header>
             </article>
             post
@@ -1193,7 +1194,7 @@
                 <header class="media-cell-desc">
                     <span title="2013" class="date"><span class="day">03</span>may</span>
 
-                    <h3><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
+                    <h1 class="seospecial"><a href="blog-single.html">Get Ready And Pack Your Bag For a Real Trip</a></h3>
                 </header>
             </article>
             post
