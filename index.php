@@ -1,3 +1,41 @@
+<?php
+/*
+* Ajax form submit
+*/
+
+# request sent using HTTP_X_REQUESTED_WITH
+if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
+    if (isset($_POST['name']) AND isset($_POST['email']) AND isset($_POST['subject']) AND isset($_POST['message'])) {
+        $to = 'harikrishna.kandala1@gmail.com';
+
+        $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+        $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+        $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
+        $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+        $sent = email($to, $email, $name, $subject, $message);
+        if ($sent) {
+            echo 'Message sent!';
+        } else {
+            echo 'Message couldn\'t sent!';
+        }
+    }
+    else {
+        echo 'All Fields are required';
+    }
+    return;
+}
+
+/**
+ * email function
+ *
+ * @return bool | void
+ **/
+function email($to, $from_mail, $from_name, $subject, $message){
+    
+    if( mail($to, $subject, $message ) return true; 
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true"
       data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
@@ -36,6 +74,7 @@
     <link rel="stylesheet" type="text/css" href="css/tooltipster.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/style1.css">
     <!--[if lte IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -972,50 +1011,37 @@
                 <h2 class="section-title"><span><i class="icon-paper-plane"></i>DROP US A LINE</span></h2>
                 <!-- .contact-form -->
                 <div id="contact-form">
-                    <div id="fields">
-                        <?php
-                        // display form if user has not clicked submit
-                        if (!isset($_POST["submit"])) {
-                            ?>
-                        <form method="post" action="">
-                        <!-- enter mail subject here -->
-                        <p>
-                            <label for="name">NAME</label>
-                            <input type="text" name="from" id="name" class="required">
-                        </p>
-
-                        <p>
-                            <label for="email">EMAIL</label>
-                            <input type="text" name="subject" id="email" class="required email">
-                        </p>
-
-                        <p>
-                            <label for="message">MESSAGE</label>
-                            <textarea name="message" id="message" class="required"></textarea>
-                        </p>
-
-                        <p>
-                            <input type="submit" name="submit" class="submit button primary" value="SEND">
-                        </p>
-                        </form>
-                        <?php
-                                } else {    // the user has submitted the form
-                                // Check if the "from" input field is filled out
-                                if (isset($_POST["from"])) {
-                                $from = $_POST["from"]; // sender
-                                $subject = $_POST["subject"];
-                                $message = $_POST["message"];
-                                // message lines should not exceed 70 characters (PHP rule), so wrap it
-                                $message = wordwrap($message, 70);
-                                // send mail
-                                mail("info@pezzo.in",$subject,$message,"From: $from\n");
-                                echo "Thank you for contacting Pezzo. Our team will get back to you soon";
-                            }
-                        }
-                    ?>
-
-                    </div>
-                    <div id="note"></div>
+                    
+        <div class="alert">Hello</div>
+        <form id="form" action="" method="post">
+            <div>
+                <label>
+                    <span>Name: *</span>
+                    <input placeholder="Name" type="text" name="name" required>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Email: *</span>
+                    <input placeholder="Email address" type="email" name="email" required>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Subject: *</span>
+                    <input placeholder="Subject" type="text" name="subject" required>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Message: *</span>
+                    <textarea placeholder="Type your message here...." name="message" required></textarea>
+                </label>
+            </div>
+            <div>
+                <button name="submit" type="submit" id="submit">Send Email</button>
+            </div>
+        </form>
                 </div>
 
                 <!-- .contact-form -->
@@ -1239,6 +1265,9 @@
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 <!-- InstanceEnd -->
 </html>
