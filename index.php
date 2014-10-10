@@ -989,6 +989,7 @@
                 <h2 class="section-title"><span><i class="icon-paper-plane"></i>DROP US A LINE</span></h2>
                 <!-- .contact-form -->
                 <div id="contact-form">
+                <div class="alert">Hello</div>
                     <?php
 /*
 * Ajax form submit
@@ -1026,7 +1027,6 @@ function email($to, $from_mail, $from_name, $subject, $message){
     $header[] = "Content-Transfer-Encoding: 7bit";
     if( mail($to, $subject, $message, implode("\r\n", $header)) ) return true; 
 }
-
 ?>
 <form id="form" action="" method="post">
             <div>
