@@ -6,7 +6,7 @@
 # request sent using HTTP_X_REQUESTED_WITH
 if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
     if (isset($_POST['name']) AND isset($_POST['email']) AND isset($_POST['subject']) AND isset($_POST['message'])) {
-        $to = 'harikrishna.kandala1@gmail.com';
+        $to = 'your@mail.id';
 
         $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
         $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
@@ -24,29 +24,21 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
     }
     return;
 }
-
-/**
- * email function
- *
- * @return bool | void
- **/
-function email($to, $from_mail, $from_name, $subject, $message){
-    
-    if( mail($to, $subject, $message ) return true; 
-}
-
 ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true"
       data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
 <head>
-	<title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title>
+    <title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography |
+        Cinematography </title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
+    <meta name="description"
+          content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
     <meta name="keywords"
           content="marketing consultation- web development, branding, consultation, seo, sem, smm, digital marketing, website optimization, web page optimization, digital, marketing, search engine marketing, search engine, social media marketing, creative designing, creative writing, print solutions, photography, cinematography, motion graphics, bangalore, mobile application development, marketing consultation, brand consultation, graphic designing, Search engine, search engine optimization, optimization, website, web, web development, web page">
-    <meta name="author" content="PEZZO"><meta name="robots" content="index,follow">
+    <meta name="author" content="PEZZO">
+    <meta name="robots" content="index,follow">
     <link rel="image_src" href="images/site/thumbnail.png"/>
     <link rel="image_src" href="images/site/badge.png"/>
     <!-- FAV and TOUCH ICONS -->
@@ -74,13 +66,13 @@ function email($to, $from_mail, $from_name, $subject, $message){
     <link rel="stylesheet" type="text/css" href="css/tooltipster.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" type="text/css"href="css/style1.css">
     <!--[if lte IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <script src="js/selectivizr-min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="style-switcher/style.css">
+    <link rel="stylesheet" type="text/css" href="style-switcher/style1.css">
     <link rel="stylesheet" class="base-skin" type="text/css" href="#">
     <!-- InstanceBeginEditable name="head" -->
     <!-- InstanceEndEditable -->
@@ -167,8 +159,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
     <div class="col-md-4">
         <h2 class="section-title"><span><i class="icon-twitter"></i>LATEST TWEETS</span></h2>
 
-        <!--<div id="latest-tweets" class="widget-twitter" data-twitterId="388393979672150017"
-             data-tweet-count="1"></div>-->
+        <div id="latest-tweets" class="widget-twitter" data-twitterId="388393979615179613" data-tweet-count="1"></div>
     </div>
     <!-- column 4/12 -->
 </div>
@@ -529,14 +520,16 @@ function email($to, $from_mail, $from_name, $subject, $message){
 
         <div class="event current">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Campaign Planning</h5>
+
+            <h1 class="seospecial2">Campaign Planning</h1>
 
             <p>We plan effective campaigns to bring up product, brand and service credibility. Campaigns planned by
                 PEZZO are carefully thought, detailed and well executed.</p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Brand consultation</h5>
+
+            <h1 class="seospecial2">Brand consultation</h1>
 
             <p>We build strong brands that make good impressions in the hearts and minds. Whether it's a revamp of an
                 existing identity or a more comprehensive strategic brand exercise or designing a brand ambassador
@@ -544,14 +537,16 @@ function email($to, $from_mail, $from_name, $subject, $message){
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Marketing Strategy</h5>
+
+            <h1 class="seospecial2">Marketing Strategy</h1>
 
             <p>We do a thorough market analysis to come up with the right target market where we can penetrate deeper
                 and give users the right perspective about the product and stick it in mind.</p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Creative Writing</h5>
+
+            <h1 class="seospecial2">Creative Writing</h1>
 
             <p>Writings are the way to touch users' thoughts. This is the voice of a company to its users. Great
                 write-ups can stay in users' mind for long time and make them use the product and visualize the service
@@ -562,15 +557,16 @@ function email($to, $from_mail, $from_name, $subject, $message){
 
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">E-Commerce</h5>
+
+            <h1 class="seospecial2">E-Commerce</h1>
 
             <p>In modern world every product is available online. Due to increase in internet literacy and availability,
                 many people are flowing online to shop products, which inturn creating lot of social capital for
                 eloquence websites. We help our customers utilize this capital and make the most out of it.</p>
-        </div>
-        <div class="event">
+
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Enterprise solutions</h5>
+
+            <h1 class="seospecial2">Enterprise solutions</h1>
 
             <p>Every enterprise needs an online management, maintenance or socializing tool which will make it easier to
                 maintain Human resources or services. We help companies find gaps in system and fill them using
@@ -578,7 +574,8 @@ function email($to, $from_mail, $from_name, $subject, $message){
         </div>
         <div class="event current">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">SEO &amp; SMM</h5>
+
+            <h1 class="seospecial2">SEO &amp; SMM</h1>
 
             <p>Online marketing has boosted to be one of the most effective and proven marketing. Serving millions of
                 consumers everyday and helping companies advertise their products in much cheaper and intelligent manner
@@ -586,7 +583,8 @@ function email($to, $from_mail, $from_name, $subject, $message){
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Mobile applications</h5>
+
+            <h1 class="seospecial2">Mobile applications</h1>
 
             <p>Due to increase in mobile devices, there is a need for every business to market themselves on mobile or
                 keep customers entertained on the go. To cater all our client's needs, we do develop mobile applications
@@ -599,7 +597,8 @@ function email($to, $from_mail, $from_name, $subject, $message){
 
         <div class="event current">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Motion graphics</h5>
+
+            <h1 class="seospecial2">Motion graphics</h1>
 
             <p>The art of capturing/creating a composition with aesthetics is motion design. With expertise in 3D/2D
                 animation in a trend setter minimal design, we make everything that moves on screen look so good that
@@ -607,21 +606,24 @@ function email($to, $from_mail, $from_name, $subject, $message){
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Graphic design</h5>
+
+            <h1 class="seospecial2">Graphic design</h1>
 
             <p>With over 20 years of experience in this domain we deliver the most unique, standout and professional
                 designs with minimalist approach. </p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Branding</h5>
+
+            <h1 class="seospecial2">Branding</h1>
 
             <p>To succeed in branding you must understand the needs and wants of your customers and prospects. You do
                 this by integrating your brand strategies through your company at every point of public contact.</p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Print</h5>
+
+            <h1 class="seospecial2">Print</h1>
 
             <p>Experts in executing print on any media with optimized color solution. Specialized in custom merchandise
                 and various signage services. We strive to print anything on everything.</p>
@@ -631,14 +633,16 @@ function email($to, $from_mail, $from_name, $subject, $message){
 
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Film making</h5>
+
+            <h1 class="seospecial2">Film making</h1>
 
             <p>People are so accustomed to all the live movements around us that we forget the beauty of it. Our keen
                 eye makes live action footage as a breathtaking experience.</p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Still Photography</h5>
+
+            <h1 class="seospecial2">Still Photography</h1>
 
             <p>A picture speaks a thousand words. What better than a photograph to explain those precious moments with
                 your loved ones? With an expertise in candid photography we capture those precious moments for you to
@@ -646,7 +650,8 @@ function email($to, $from_mail, $from_name, $subject, $message){
         </div>
         <div class="event">
             <span class="date">&amp;</span>
-            <h1 class="seospecial2">Editing</h5>
+
+            <h1 class="seospecial2">Editing</h1>
 
             <p>Editing is one of the most important components of the entire film industry and professional video
                 production. Editing, or how the video is finally assembled and put together, can make all the difference
@@ -709,7 +714,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
         </div>
     </div>
     <div class="media-cell-desc">
-        <h1 class="seospecial">Dark spray</h3>
+        <h1 class="seospecial">Dark spray</h1>
     </div>
 </div>
 <!-- <div class="media-cell coding hentry">
@@ -733,7 +738,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
         <a href="portfolio-bittye.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h1 class="seospecial">BITTYE</h3>
+        <h1 class="seospecial">BITTYE</h1>
 
         <p class="category">Photography &amp; Webdesign</p>
     </div>
@@ -746,20 +751,20 @@ function email($to, $from_mail, $from_name, $subject, $message){
         <a href="portfolio-neeladhri-ceramics.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h1 class="seospecial">Neeladhri Ceramics</h3>
+        <h1 class="seospecial">Neeladhri Ceramics</h1>
 
         <p class="category">Photography &amp; Webdesign</p>
     </div>
 </div>
 <div class="media-cell webdesign branding photography print hentry x1">
     <div class="media-box">
-        <img src="images/portfolio/parva/thumbnail.png" alt="portfolio-post">
+        <img src="images/portfolio/parva/thumbnail.jpg" alt="portfolio-post">
 
         <div class="mask"></div>
         <a href="portfolio-parva.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h1 class="h1special">Parva</h3>
+        <h1 class="h1special">Parva</h1>
 
         <p class="category">Branding, Photography &amp; Website</p>
     </div>
@@ -774,7 +779,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
         </div>
     </div>
     <div class="media-cell-desc">
-        <h1 class="h1special">Classicals</h3>
+        <h1 class="h1special">Classicals</h1>
     </div>
 </div>
 <div class="media-cell marketing webdesign branding photography print hentry x1">
@@ -785,9 +790,9 @@ function email($to, $from_mail, $from_name, $subject, $message){
         <a href="portfolio-castle-key.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h1 class="h1special">Castle key</h3>
+        <h1 class="h1special">Castle key</h1>
 
-        <p class="category">Branding, Photography &amp; Website</p>
+            <p class="category">Branding, Photography &amp; Website</p>
     </div>
 </div>
 <div class="media-cell print cinematography hentry x1">
@@ -798,9 +803,9 @@ function email($to, $from_mail, $from_name, $subject, $message){
         <a href="portfolio-pearson.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h1 class="seospecial">Pearson</h3>
+        <h1 class="seospecial">Pearson</h1>
 
-        <p class="category">Cinematography &amp; Design</p>
+            <p class="category">Cinematography &amp; Design</p>
     </div>
 </div>
 <div class="media-cell branding marketing hentry x2">
@@ -811,9 +816,9 @@ function email($to, $from_mail, $from_name, $subject, $message){
         <a href="portfolio-mysmaty.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h1 class="seospecial">MySmaty</h3>
+        <h1 class="seospecial">MySmaty</h1>
 
-        <p class="category">Cinematography &amp; Design</p>
+            <p class="category">Cinematography &amp; Design</p>
     </div>
 </div>
 <div class="media-cell webdesign hentry x1">
@@ -824,9 +829,9 @@ function email($to, $from_mail, $from_name, $subject, $message){
         <a href="portfolio-axiom.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h1 class="seospecial">Axiom</h3>
+        <h1 class="seospecial">Axiom</h1>
 
-        <p class="category">Cinematography &amp; Design</p>
+            <p class="category">Cinematography &amp; Design</p>
     </div>
 </div>
 <div class="media-cell branding print marketing hentry x1">
@@ -837,9 +842,9 @@ function email($to, $from_mail, $from_name, $subject, $message){
         <a href="portfolio-money-and-me.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h1 class="seospecial">Money &amp; me</h3>
+        <h1 class="seospecial">Money &amp; me</h1>
 
-        <p class="category">Cinematography &amp; Design</p>
+            <p class="category">Cinematography &amp; Design</p>
     </div>
 </div>
 <div class="media-cell branding marketing hentry x1">
@@ -850,9 +855,9 @@ function email($to, $from_mail, $from_name, $subject, $message){
         <a href="portfolio-axinovate.html" class="ajax"></a>
     </div>
     <div class="media-cell-desc">
-        <h1 class="seospecial">Axinovate</h3>
+        <h1 class="seospecial">Axinovate</h1>
 
-        <p class="category">Cinematography &amp; Design</p>
+            <p class="category">Cinematography &amp; Design</p>
     </div>
 </div>
 <!-- <div class="media-cell coding video hentry">
@@ -1011,8 +1016,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
                 <h2 class="section-title"><span><i class="icon-paper-plane"></i>DROP US A LINE</span></h2>
                 <!-- .contact-form -->
                 <div id="contact-form">
-                    
-        <div class="alert">Hello</div>
+                   <div class="alert">Hello</div>
         <form id="form" action="" method="post">
             <div>
                 <label>
@@ -1265,9 +1269,8 @@ function email($to, $from_mail, $from_name, $subject, $message){
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 <!-- InstanceEnd -->
 </html>
