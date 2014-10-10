@@ -991,11 +991,7 @@
                 <div id="contact-form">
                 <div class="alert">Hello</div>
                     <?php
-/*
-* Ajax form submit
-*/
 
-# request sent using HTTP_X_REQUESTED_WITH
 if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
     if (isset($_POST['name']) AND isset($_POST['email']) AND isset($_POST['subject']) AND isset($_POST['message'])) {
         $to = 'harikrishna.kandala1@gmail.com';
@@ -1015,10 +1011,11 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
         echo 'All Fields are required';
     }
     return;
-}
- @return bool | void
- **/
-function email($to, $from_mail, $from_name, $subject, $message){
+}/**
+ * email function
+ *
+ * @return bool | void
+ **/function email($to, $from_mail, $from_name, $subject, $message){
     $header = array();
     $header[] = "MIME-Version: 1.0";
     $header[] = "From: {$from_name}<{$from_mail}>";
