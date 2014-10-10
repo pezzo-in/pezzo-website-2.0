@@ -1012,7 +1012,7 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
         }
     }
     else {
-        ech 'All Fields are required';
+        echo 'All Fields are required';
     }
     return;
 }
