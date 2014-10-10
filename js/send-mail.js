@@ -4,7 +4,7 @@
 	
 	$(function() {
 		
-		var contactForm = $( '#contact-form' );
+		var contactForm = $( 'contact-form' );
 		
 		var $alert = $('.site-alert');
 		
