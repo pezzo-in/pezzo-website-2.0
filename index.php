@@ -1,30 +1,3 @@
-<?php
-/*
-* Ajax form submit
-*/
-
-# request sent using HTTP_X_REQUESTED_WITH
-if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
-    if (isset($_POST['name']) AND isset($_POST['email']) AND isset($_POST['subject']) AND isset($_POST['message'])) {
-        $to = 'your@mail.id';
-
-        $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-        $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
-        $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
-        $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
-        $sent = email($to, $email, $name, $subject, $message);
-        if ($sent) {
-            echo 'Message sent!';
-        } else {
-            echo 'Message couldn\'t sent!';
-        }
-    }
-    else {
-        echo 'All Fields are required';
-    }
-    return;
-}
-?>
 <!DOCTYPE html>
 <html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true"
       data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
@@ -66,13 +39,13 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
     <link rel="stylesheet" type="text/css" href="css/tooltipster.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css"href="css/style1.css">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
     <!--[if lte IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <script src="js/selectivizr-min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="style-switcher/style1.css">
+    <link rel="stylesheet" type="text/css" href="style-switcher/style.css">
     <link rel="stylesheet" class="base-skin" type="text/css" href="#">
     <!-- InstanceBeginEditable name="head" -->
     <!-- InstanceEndEditable -->
@@ -1016,8 +989,35 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
                 <h2 class="section-title"><span><i class="icon-paper-plane"></i>DROP US A LINE</span></h2>
                 <!-- .contact-form -->
                 <div id="contact-form">
-                   <div class="alert">Hello</div>
-        <form id="form" action="" method="post">
+                    <?php
+/*
+* Ajax form submit
+*/
+
+# request sent using HTTP_X_REQUESTED_WITH
+if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
+    if (isset($_POST['name']) AND isset($_POST['email']) AND isset($_POST['subject']) AND isset($_POST['message'])) {
+        $to = 'your@mail.id';
+
+        $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+        $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+        $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
+        $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+        $sent = email($to, $email, $name, $subject, $message);
+        if ($sent) {
+            echo 'Message sent!';
+        } else {
+            echo 'Message couldn\'t sent!';
+        }
+    }
+    else {
+        echo 'All Fields are required';
+    }
+    return;
+}
+
+?>
+<form id="form" action="" method="post">
             <div>
                 <label>
                     <span>Name: *</span>
@@ -1269,8 +1269,9 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 <!-- InstanceEnd -->
 </html>
