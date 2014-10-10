@@ -25,7 +25,7 @@ $(document).ready(function() {
 				submit.html('Sending....'); // change submit button text
 			},
 			success: function(data) {
-				alert.html(data).fadeIn(); // fade in response data
+				alert.fadeIn(); // fade in response data
 				form.trigger('reset'); // reset form
 				submit.html('Send Email'); // reset submit button text
 			},

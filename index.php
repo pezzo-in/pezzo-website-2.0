@@ -45,7 +45,6 @@
     <script src="js/respond.min.js"></script>
     <script src="js/selectivizr-min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="style-switcher/style.css">
     <link rel="stylesheet" class="base-skin" type="text/css" href="#">
     <!-- InstanceBeginEditable name="head" -->
     <!-- InstanceEndEditable -->
@@ -989,7 +988,7 @@
                 <h2 class="section-title"><span><i class="icon-paper-plane"></i>DROP US A LINE</span></h2>
                 <!-- .contact-form -->
                 <div id="contact-form">
-                <div class="alert">Hello</div>
+                <div class="alert">Thank you for contacting Pezzo. We will get back to you shortly.</div>
                     <?php
 
 if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
@@ -1002,7 +1001,7 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
         $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
         $sent = email($to, $email, $name, $subject, $message);
         if ($sent) {
-            echo 'Message sent!';
+            echo 'Thank you for contacting Pezzo. We will get back to you shortly.';
         } else {
             echo 'Message couldn\'t sent!';
         }
@@ -1016,38 +1015,31 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
  *
  * @return bool | void
  **/function email($to, $from_mail, $from_name, $subject, $message){
-   
-    if( mail($to, $subject, $message ) return true; 
+  
+    if( mail($to, $subject, $message, implode("\r\n",$sent)) ) return true; 
 }
 ?>
 <form id="form" action="" method="post">
-            <div>
-                <label>
-                    <span>Name: *</span>
-                    <input placeholder="Name" type="text" name="name" required>
-                </label>
-            </div>
-            <div>
-                <label>
-                    <span>Email: *</span>
-                    <input placeholder="Email address" type="email" name="email" required>
-                </label>
-            </div>
-            <div>
-                <label>
-                    <span>Subject: *</span>
-                    <input placeholder="Subject" type="text" name="subject" required>
-                </label>
-            </div>
-            <div>
-                <label>
-                    <span>Message: *</span>
-                    <textarea placeholder="Type your message here...." name="message" required></textarea>
-                </label>
-            </div>
-            <div>
-                <button name="submit" type="submit" id="submit">Send Email</button>
-            </div>
+            <p>
+                            <label for="name">NAME</label>
+                            <input type="text" name="name" id="name" class="required">
+            </p>
+            <p>
+                            <label for="email">SUBJECT</label>
+                            <input type="text" name="subject" id="subject" class="required">
+            </p>
+            <p>
+                            <label for="name">EMAIL</label>
+                            <input type="text" name="email" id="email" class="required email">
+            </p>
+            <p>
+                            <label for="message">MESSAGE</label>
+                            <textarea name="message" id="message" class="required"></textarea>
+            </p>
+
+            <p>
+                            <input type="submit" name="submit" class="submit button primary" value="SEND">
+            </p>
         </form>
                 </div>
 
@@ -1272,9 +1264,7 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 <!-- InstanceEnd -->
 </html>
