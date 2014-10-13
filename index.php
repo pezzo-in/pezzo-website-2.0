@@ -989,7 +989,7 @@
                 <!-- .contact-form -->
                 <div id="contact-form">
                 <div class="alert">Thank you for contacting Pezzo. We will get back to you shortly.</div>
-                    <?php
+<?php
 
 if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
     if (isset($_POST['name']) AND isset($_POST['email']) AND isset($_POST['subject']) AND isset($_POST['message'])) {
@@ -1021,20 +1021,27 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
 ?>
 <form id="form" action="" method="post">
             <p>
-                            <label for="name">NAME</label>
-                            <input type="text" name="name" id="name" class="required">
+                <label>
+                    <span>Name</span>
+                    <input placeholder="Name" type="text" name="name" required>
+                </label>
             </p>
             <p>
-                            <label for="email">SUBJECT</label>
-                            <input type="text" name="subject" id="subject" class="required">
+                <label>
+                    <span>Subject</span>
+                    <input placeholder="Subject" type="text" name="subject" required>
+                </label>
             </p>
             <p>
-                            <label for="name">EMAIL</label>
-                            <input type="text" name="email" id="email" class="required email">
+                <label>
+                    <span>Email</span>
+                    <input placeholder="Email address" type="email" name="email" required>
+                </label>
             </p>
-            <p>
-                            <label for="message">MESSAGE</label>
-                            <textarea name="message" id="message" class="required"></textarea>
+            <p> <label>
+                    <span>Message</span>
+                    <textarea placeholder="Type your message here...." name="message" required></textarea>
+                </label>
             </p>
 
             <p>
