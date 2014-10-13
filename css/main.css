@@ -1847,13 +1847,6 @@ input.colored[type="submit"], input.colored[type="button"], button.colored, a.bu
     display: none;
     padding: 0.2em 0 1em 1.8em;
 }
-.alert {
-    border: 3px solid #eaeeef;
-    border-radius: 6px;
-    margin-bottom: 2em;
-    padding: 1.2em 1em 1em 4.4em;
-    position: relative;
-}
 .alert:before {
     color: #b7c6c9;
     font-size: 27px;
@@ -1866,13 +1859,15 @@ input.colored[type="submit"], input.colored[type="button"], button.colored, a.bu
     border-color: #aee2a3;
 }
 .alert.success:before {
-    content: "";
+    display: none;
+
 }
 .alert.info {
     border-color: #e4e6c4;
 }
 .alert.info:before {
     content: "";
+    display: none;
 }
 .alert.error {
     border-color: #ee8f8f;
@@ -2654,7 +2649,7 @@ a.more-link:hover {
 }
 .comments-area ol {
     list-style: none outside none;
-    padding-left: 0;
+    padding-left: 0;z
 }
 .comments-area ol li {
     padding-top: 1em;

@@ -10,8 +10,10 @@ $(document).ready(function() {
 	var form = $('#form'); // contact form
 	var submit = $('#submit');	// submit button
 	var alert = $('.alert'); // alert div for show alert message
-
 	// form submit event
+	
+	alert.hide();
+	
 	form.on('submit', function(e) {
 		e.preventDefault(); // prevent default form submit
 		// sending ajax request through jQuery

@@ -2,7 +2,7 @@
 <html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true"
       data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
 <head>
-    <title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography |
+    <title>PEZZO | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography |
         Cinematography </title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -988,23 +988,20 @@
                 <h2 class="section-title"><span><i class="icon-paper-plane"></i>DROP US A LINE</span></h2>
                 <!-- .contact-form -->
                 <div id="contact-form">
-                <div class="alert">Thank you for contacting Pezzo. We will get back to you shortly.</div>
+                <div class="alert">Thank you for contacting us, we will get back to you soon!!</div>
+                
 <?php
 
 if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
     if (isset($_POST['name']) AND isset($_POST['email']) AND isset($_POST['subject']) AND isset($_POST['message'])) {
-        $to = 'harikrishna.kandala1@gmail.com';
+        $to = 'info@pezzo.in';
 
         $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
         $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
         $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
         $message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
         $sent = email($to, $email, $name, $subject, $message);
-        if ($sent) {
-            echo 'Thank you for contacting Pezzo. We will get back to you shortly.';
-        } else {
-            echo 'Message couldn\'t sent!';
-        }
+
     }
     else {
         echo 'All Fields are required';
@@ -1015,8 +1012,9 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
  *
  * @return bool | void
  **/function email($to, $from_mail, $from_name, $subject, $message){
+    $message = 'FROM: ' . $from_name . ' Email: ' . $from_mail ."\n\n". 'Message: '. $message;
   
-    if( mail($to, $subject, $message, implode("\r\n",$sent)) ) return true; 
+    if( mail($to, $subject, $message, implode("\r\n",$to)) ) return true; 
 }
 ?>
 <form id="form" action="" method="post">
@@ -1045,7 +1043,7 @@ if( isset( $_SERVER['HTTP_X_REQUESTED_WITH'] ) ){
             </p>
 
             <p>
-                            <input type="submit" name="submit" class="submit button primary" value="SEND">
+                            <input type="submit" name="submit" id="submit" class="submit button primary" value="SEND">
             </p>
         </form>
                 </div>
