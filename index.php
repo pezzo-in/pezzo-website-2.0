@@ -157,7 +157,7 @@
             <i class="fa fa-bullhorn"></i>
             <h4>Marketing consultation</h4>
 
-            <p>We breath market analysis and statistics. Our expertise in analysing end-users' requirements provide
+            <p>We breathe market analysis and statistics. Our expertise in analysing end-users' requirements provide
                 our
                 clients with the best exposure.</p>
         </div>
@@ -609,7 +609,7 @@
             <h1 class="seospecial2">Film making</h1>
 
             <p>People are so accustomed to all the live movements around us that we forget the beauty of it. Our keen
-                eye makes live action footage as a breathtaking experience.</p>
+                eye makes live action footage as a breathetaking experience.</p>
         </div>
         <div class="event">
             <span class="date">&amp;</span>
