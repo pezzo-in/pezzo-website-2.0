@@ -1,0 +1,49 @@
+
+
+.alert {
+    color: #a4a4a4;
+    margin: 20px 0;
+    padding: 8px 35px 8px 14px;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="url"], textarea {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #eeeeee inset;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 0 5px;
+    padding: 7px 10px;
+    width: 100%;
+}
+textarea {
+    height: 100px;
+    max-width: 100%;
+}
+button[type="submit"] {
+    background: -moz-linear-gradient(center bottom , #8c1c50 0%, #991d57 52%) repeat scroll 0 0 #991d57;
+    border: medium none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0 0 5px;
+    padding: 10px;
+    width: 100%;
+}
+button[type="submit"]:hover {
+    background-image: -moz-linear-gradient(center bottom , #9c215a 0%, #a82767 52%);
+    transition: background-color 0.3s ease-in-out 0s;
+}
+button[type="submit"]:active {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+input:focus, textarea:focus {
+    border: 1px solid #999999;
+    outline: 0 none;
+}
+label {
+    cursor: pointer;
+    display: block;
+    font-weight: 900;
+    margin: 5px 0;
+}
