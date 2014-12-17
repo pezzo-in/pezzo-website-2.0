@@ -65,6 +65,7 @@
         ga('send', 'pageview');
     </script>
 </head>
+<script type="text/javascript" async defer  data-pin-color="red" data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
 <body>
 <!-- CONTAINER -->
 <div class="container" id="container">
