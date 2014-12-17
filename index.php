@@ -129,9 +129,23 @@
     <!-- column 8/12 -->
     <!-- column 4/12 -->
     <div class="col-md-4">
-        <h2 class="section-title"><span><i class="icon-twitter"></i>LATEST TWEETS</span></h2>
+        <h2 class="section-title"><span><i class="icon-twitter"></i>FACEBOOK FEEDS</span></h2>
 
-        <div id="latest-tweets" class="widget-twitter" data-twitterId="388393979615179613" data-tweet-count="1"></div>
+        <!--<div id="latest-tweets" class="widget-twitter" data-twitterId="388393979615179613" data-tweet-count="1"></div>-->
+
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=236277823092390";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="fb-like-box" data-href="https://www.facebook.com/GenYAwakeningIndia" data-width="960"
+             data-colorscheme="light" data-show-faces="true" data-header="false"
+             data-stream="true" data-show-border="false">
+        </div>
     </div>
     <!-- column 4/12 -->
 </div>
