@@ -43,6 +43,11 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <script src="js/selectivizr-min.js"></script>
+    <script language="javascript" type="text/javascript">
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="style-switcher/style.css">
     <link rel="stylesheet" class="base-skin" type="text/css" href="#">
@@ -74,13 +79,14 @@
     <!-- <img src="images/site/badge.png" alt="avatar"> -->
 
     <h1 id="h1special"><img src="images/site/logo-prime.png" alt=""/></h1>
-    <!--<p>marketing consultants</p>-->
+    <!--<p>marketing consultation</p>-->
     <!-- NAV MENU -->
     <ul class="vs-nav">
         <!-- InstanceBeginEditable name="Menu-Content" -->
         <li><a href="#/about" onClick="_gaq.push(['_trackEvent', 'About us']);">About us</a></li>
         <li><a href="#/services" onClick="_gaq.push(['_trackEvent', 'Services']);">Services</a></li>
         <li><a href="#/portfolio" onClick="_gaq.push(['_trackEvent', 'Portfolio']);">Portfolio</a></li>
+        <li><a href="#/blog" onClick="_gaq.push(['_trackEvent', 'Blog']);">Blog</a></li>
         <li><a href="#/contact" onClick="_gaq.push(['_trackEvent', 'Contact']);">Contact</a></li>
         <!-- <li><a href="#/blog">blog</a></li> -->
         <!-- InstanceEndEditable -->
@@ -131,22 +137,7 @@
     <!-- column 4/12 -->
     <div class="col-md-4">
         <h2 class="section-title"><span><i class="icon-twitter"></i>FACEBOOK FEEDS</span></h2>
-
         <!--<div id="latest-tweets" class="widget-twitter" data-twitterId="388393979615179613" data-tweet-count="1"></div>-->
-
-        <div id="fb-root"></div>
-        <script>(function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=236277823092390";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-        <div class="fb-like-box" data-href="https://www.facebook.com/GenYAwakeningIndia" data-width="960"
-             data-colorscheme="light" data-show-faces="true" data-header="false"
-             data-stream="true" data-show-border="false">
-        </div>
     </div>
     <!-- column 4/12 -->
 </div>
@@ -976,6 +967,18 @@
 </div>
 <!-- CONTENT --></section>
 <!-- PAGE : CONTACT -->
+<section id="blog" class="page">
+    <div class="content">
+        <!-- row -->
+        <div class="row">
+            <!-- column 6/12 -->
+            <div class="col-md-12">
+                <iframe name="Stack" src="http://pezzo.in/blog" frameborder="0" scrolling="no" id="iframe" onload='resizeIframe(this);' />
+            </div>
+        </div>
+        <!-- row -->
+    </div>
+</section>
 <section id="contact" class="page">
     <div class="content">
         <!-- row -->

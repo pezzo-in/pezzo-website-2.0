@@ -759,9 +759,7 @@ var $container, $blog_container;
 		return detailUrl;
 	}
 	// ------------------------------
-	
-	
-	
+
 	// ------------------------------
 	// AJAX LOADER
 	function showLoader() {
