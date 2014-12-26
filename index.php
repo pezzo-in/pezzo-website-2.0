@@ -297,126 +297,126 @@
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/zuari-cement.png"  width="114" alt="client">
+                <img src="images/clients/zuari-cement.png"  width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/axinovate.png"  width="114" alt="client">
+                <img src="images/clients/axinovate.png"  width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/bittye.png"  width="114" alt="client">
+                <img src="images/clients/bittye.png"  width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/castle-key.png" width="114" alt="client">
+                <img src="images/clients/castle-key.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/fitness-cube.png" width="114" alt="client">
+                <img src="images/clients/fitness-cube.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/framebox.png" width="114" alt="client">
+                <img src="images/clients/framebox.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/gyai.png" width="114" alt="client">
+                <img src="images/clients/gyai.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/light-shadow.png" width="114" alt="client">
+                <img src="images/clients/light-shadow.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/mySmaty.png" width="114" alt="client">
+                <img src="images/clients/mySmaty.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/silkboard-India.png" width="114" alt="client">
+                <img src="images/clients/silkboard-India.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/tech-mahendra.png" width="114" alt="client">
+                <img src="images/clients/tech-mahendra.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/vision-cinemas.png" width="114" alt="client">
+                <img src="images/clients/vision-cinemas.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/aditya-interio.png" width="114" alt="client">
+                <img src="images/clients/aditya-interio.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/zuari-furniture.png" width="114" alt="client">
+                <img src="images/clients/zuari-furniture.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/magic-create.png" width="114" alt="client">
+                <img src="images/clients/magic-create.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/pearson.png" width="114" alt="client">
+                <img src="images/clients/pearson.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/parva.png" width="114" alt="client">
+                <img src="images/clients/parva.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/waks.png" width="114" alt="client">
+                <img src="images/clients/waks.png" width="114" height="64" alt="client">
             </a>
         </div>
     </div>
@@ -690,289 +690,289 @@
     <li><a href="#" data-filter=".photography">PHOTOGRAPHY</a></li>
     <li><a href="#" data-filter=".cinematography">CINEMATOGRAPHY</a></li>
 </ul>
-<div class="portfolio-items media-grid" data-layout="masonry">
-<div class="media-cell photography image hentry">
-    <div class="media-box">
-        <img src="images/portfolio/photography/thumbnail-03.jpg" alt="portfolio-post">
+    <div class="portfolio-items media-grid" data-layout="masonry">
+        <!-- <div class="media-cell coding hentry">
+            <div class="media-box">
+                <img src="images/portfolio/03.jpg" alt="portfolio-post" width="326">
 
-        <div class="mask">
-            <a href="images/portfolio/photography/03.jpg" title="Dark spray"
-               data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                <div class="mask"></div>
+                <a href="portfolio-item-02.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">On The Desert</h3>
+
+                <p class="category">an illustration work</p>
+            </div>
+        </div> -->
+        <div class="media-cell marketing webdesign branding print hentry x2">
+            <div class="media-box">
+                <img src="images/portfolio/bittye/thumbnail.jpg" alt="portfolio-post" width="629" height="354">
+
+                <div class="mask"></div>
+                <a href="portfolio-bittye.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">BITTYE</h1>
+
+                <p class="category">Photography &amp; Webdesign</p>
+            </div>
         </div>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Dark spray</h1>
-    </div>
-</div>
-<!-- <div class="media-cell coding hentry">
-    <div class="media-box">
-        <img src="images/portfolio/03.jpg" alt="portfolio-post">
+        <div class="media-cell marketing webdesign branding print hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/neeladhri-ceramics/thumbnail.jpg" alt="portfolio-post" width="326" height="210">
 
-        <div class="mask"></div>
-        <a href="portfolio-item-02.html" class="ajax"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">On The Desert</h3>
+                <div class="mask"></div>
+                <a href="portfolio-neeladhri-ceramics.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Neeladhri Ceramics</h1>
 
-        <p class="category">an illustration work</p>
-    </div>
-</div> -->
-<div class="media-cell marketing webdesign branding print hentry x2">
-    <div class="media-box">
-        <img src="images/portfolio/bittye/thumbnail.jpg" alt="portfolio-post">
-
-        <div class="mask"></div>
-        <a href="portfolio-bittye.html" class="ajax"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">BITTYE</h1>
-
-        <p class="category">Photography &amp; Webdesign</p>
-    </div>
-</div>
-<div class="media-cell marketing webdesign branding print hentry x1">
-    <div class="media-box">
-        <img src="images/portfolio/neeladhri-ceramics/thumbnail.jpg" alt="portfolio-post">
-
-        <div class="mask"></div>
-        <a href="portfolio-neeladhri-ceramics.html" class="ajax"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Neeladhri Ceramics</h1>
-
-        <p class="category">Photography &amp; Webdesign</p>
-    </div>
-</div>
-<div class="media-cell webdesign branding photography print hentry x1">
-    <div class="media-box">
-        <img src="images/portfolio/parva/thumbnail.jpg" alt="portfolio-post">
-
-        <div class="mask"></div>
-        <a href="portfolio-parva.html" class="ajax"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="h1special">Parva</h1>
-
-        <p class="category">Branding, Photography &amp; Website</p>
-    </div>
-</div>
-<div class="media-cell photography image hentry x1">
-    <div class="media-box">
-        <img src="images/portfolio/photography/thumbnail-02.jpg" alt="portfolio-post">
-
-        <div class="mask">
-            <a href="images/portfolio/photography/02.jpg" title="Classicals"
-               data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                <p class="category">Photography &amp; Webdesign</p>
+            </div>
         </div>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="h1special">Classicals</h1>
-    </div>
-</div>
-<div class="media-cell marketing webdesign branding photography print hentry x1">
-    <div class="media-box">
-        <img src="images/portfolio/castle-key/thumbnail.jpg" alt="portfolio-post">
+        <div class="media-cell webdesign branding photography print hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/parva/thumbnail.jpg" alt="portfolio-post" width="326" height="183">
 
-        <div class="mask"></div>
-        <a href="portfolio-castle-key.html" class="ajax"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="h1special">Castle key</h1>
+                <div class="mask"></div>
+                <a href="portfolio-parva.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="h1special">Parva</h1>
 
-            <p class="category">Branding, Photography &amp; Website</p>
-    </div>
-</div>
-<div class="media-cell print cinematography hentry x1">
-    <div class="media-box">
-        <img src="images/portfolio/pearson/thumbnail.jpg" alt="portfolio-post">
-
-        <div class="mask"></div>
-        <a href="portfolio-pearson.html" class="ajax"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Pearson</h1>
-
-            <p class="category">Cinematography &amp; Design</p>
-    </div>
-</div>
-<div class="media-cell branding marketing hentry x2">
-    <div class="media-box">
-        <img src="images/portfolio/my-smaty/thumbnail.jpg" alt="portfolio-post">
-
-        <div class="mask"></div>
-        <a href="portfolio-mysmaty.html" class="ajax"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">MySmaty</h1>
-
-            <p class="category">Cinematography &amp; Design</p>
-    </div>
-</div>
-<div class="media-cell webdesign hentry x1">
-    <div class="media-box">
-        <img src="images/portfolio/axiom/thumbnail.jpg" alt="portfolio-post">
-
-        <div class="mask"></div>
-        <a href="portfolio-axiom.html" class="ajax"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Axiom</h1>
-
-            <p class="category">Cinematography &amp; Design</p>
-    </div>
-</div>
-<div class="media-cell branding print marketing hentry x1">
-    <div class="media-box">
-        <img src="images/portfolio/money-and-me/thumbnail.jpg" alt="portfolio-post">
-
-        <div class="mask"></div>
-        <a href="portfolio-money-and-me.html" class="ajax"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Money &amp; me</h1>
-
-            <p class="category">Cinematography &amp; Design</p>
-    </div>
-</div>
-<div class="media-cell branding marketing hentry x1">
-    <div class="media-box">
-        <img src="images/portfolio/axinovate/thumbnail.jpg" alt="portfolio-post">
-
-        <div class="mask"></div>
-        <a href="portfolio-axinovate.html" class="ajax"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Axinovate</h1>
-
-            <p class="category">Cinematography &amp; Design</p>
-    </div>
-</div>
-<!-- <div class="media-cell coding video hentry">
-    <div class="media-box">
-        <img src="images/portfolio/03.png" alt="portfolio-post">
-
-        <div class="mask"></div>
-        <a href="http://player.vimeo.com/video/79380715?title=0&amp;byline=0&amp;portrait=0&amp;color=009966"
-           title="Paper by FiftyThree" data-lightbox-gallery="fancybox-item-03" class="lightbox iframe"></a>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Sleepy Games</h3>
-
-        <p class="category">lightbox video</p>
-    </div>
-</div> -->
-<!-- <div class="media-cell coding audio hentry">
-    <div class="media-box">
-        <img src="images/portfolio/06.png" alt="portfolio-post">
-
-        <div class="mask">                lightbox - soundcloud
-            <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129829419&amp;color=009966&amp;auto_play=false&amp;show_artwork=true"
-               title="Soundcloud embed" data-lightbox-gallery="fancybox-item-04"
-               class="lightbox iframe"></a>
-            lightbox - soundcloud            </div>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Empty Battery</h3>
-
-        <p class="category">lightbox soundcloud</p>
-    </div>
-</div> -->
-
-
-<!-- <div class="media-cell logo image hentry">
-    <div class="media-box">
-        <img src="images/portfolio/07.png" alt="portfolio-post">
-
-        <div class="mask">                lightbox - gallery
-            <a href="images/portfolio/lightbox-02.jpg" data-lightbox-gallery="fancybox-item-02"
-               class="lightbox"
-               title="Octopus is dangerous!"></a>
-            <a href="images/portfolio/lightbox-03.jpg" data-lightbox-gallery="fancybox-item-02"
-               class="hidden lightbox"></a>
-            <a href="images/portfolio/lightbox-04.jpg" data-lightbox-gallery="fancybox-item-02"
-               class="hidden lightbox" title="Dog have dreams"></a>
-            lightbox - gallery            </div>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Wizard Adventure</h3>
-
-        <p class="category">lightbox gallery</p>
-    </div>
-</div>
-
-
-<div class="media-cell logo url hentry">
-    <div class="media-box">
-        <img src="images/portfolio/08.png" alt="portfolio-post">
-
-        <div class="mask">
-            <a href="http://themeforest.net/user/PEZZO" target="_blank"></a>
+                <p class="category">Branding, Photography &amp; Website</p>
+            </div>
         </div>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Shinny Robot</h3>
+        <div class="media-cell photography image hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/photography/thumbnail-02.jpg" alt="portfolio-post" width="326" height="245">
 
-        <p class="category">an illustration work</p>
-    </div>
-</div>
-
-<div class="media-cell coding hentry">
-    <div class="media-box">
-        <img src="images/portfolio/16.png" alt="portfolio-post">
-
-        <div class="mask">
-            <a href="portfolio-item-03.html" class="ajax"></a>
+                <div class="mask">
+                    <a href="images/portfolio/photography/02.jpg" title="Classicals"
+                       data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                </div>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="h1special">Classicals</h1>
+            </div>
         </div>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Virus Protection</h3>
+        <div class="media-cell marketing webdesign branding photography print hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/castle-key/thumbnail.jpg" alt="portfolio-post" width="326" height="224">
 
-        <p class="category">an illustration work</p>
-    </div>
-</div>
-<div class="media-cell design hentry">
-    <div class="media-box">
-        <img src="images/portfolio/14.png" alt="portfolio-post">
+                <div class="mask"></div>
+                <a href="portfolio-castle-key.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="h1special">Castle key</h1>
 
-        <div class="mask">
-            <a href="portfolio-item-01.html" class="ajax"></a>
+                <p class="category">Branding, Photography &amp; Website</p>
+            </div>
         </div>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Red Diamond</h3>
+        <div class="media-cell print cinematography hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/pearson/thumbnail.jpg" alt="portfolio-post" width="326" height="109">
 
-        <p class="category">an illustration work</p>
-    </div>
-</div>
-<div class="media-cell design hentry">
-    <div class="media-box">
-        <img src="images/portfolio/15.png" alt="portfolio-post">
+                <div class="mask"></div>
+                <a href="portfolio-pearson.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Pearson</h1>
 
-        <div class="mask">
-            <a href="portfolio-item-02.html" class="ajax"></a>
+                <p class="category">Cinematography &amp; Design</p>
+            </div>
         </div>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Sky is The Limit</h3>
+        <div class="media-cell branding marketing hentry x2">
+            <div class="media-box">
+                <img src="images/portfolio/my-smaty/thumbnail.jpg" alt="portfolio-post" width="692" height="590">
 
-        <p class="category">an illustration work</p>
-    </div>
-</div>
-<div class="media-cell logo hentry x1">
-    <div class="media-box">
-        <img src="images/portfolio/11.jpg" alt="portfolio-post">
+                <div class="mask"></div>
+                <a href="portfolio-mysmaty.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">MySmaty</h1>
 
-        <div class="mask">
-            <a href="portfolio-item-03.html" class="ajax"></a>
+                <p class="category">Cinematography &amp; Design</p>
+            </div>
         </div>
-    </div>
-    <div class="media-cell-desc">
-        <h1 class="seospecial">Behind The Eyes</h3>
+        <div class="media-cell webdesign hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/axiom/thumbnail.jpg" alt="portfolio-post" width="326" height="245">
 
-        <p class="category">an illustration work</p>
+                <div class="mask"></div>
+                <a href="portfolio-axiom.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Axiom</h1>
+
+                <p class="category">Cinematography &amp; Design</p>
+            </div>
+        </div>
+        <div class="media-cell branding print marketing hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/money-and-me/thumbnail.jpg" alt="portfolio-post" width="326" height="223">
+
+                <div class="mask"></div>
+                <a href="portfolio-money-and-me.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Money &amp; me</h1>
+
+                <p class="category">Cinematography &amp; Design</p>
+            </div>
+        </div>
+        <div class="media-cell branding marketing hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/axinovate/thumbnail.jpg" alt="portfolio-post" width="326" height="183">
+
+                <div class="mask"></div>
+                <a href="portfolio-axinovate.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Axinovate</h1>
+
+                <p class="category">Cinematography &amp; Design</p>
+            </div>
+        </div>
+        <div class="media-cell photography image hentry">
+            <div class="media-box">
+                <img src="images/portfolio/photography/thumbnail-03.jpg" alt="portfolio-post" width="326" height="245">
+
+                <div class="mask">
+                    <a href="images/portfolio/photography/03.jpg" title="Dark spray"
+                       data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                </div>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Dark spray</h1>
+            </div>
+        </div>
+        <!-- <div class="media-cell coding video hentry">
+            <div class="media-box">
+                <img src="images/portfolio/03.png" alt="portfolio-post" width="326">
+
+                <div class="mask"></div>
+                <a href="http://player.vimeo.com/video/79380715?title=0&amp;byline=0&amp;portrait=0&amp;color=009966"
+                   title="Paper by FiftyThree" data-lightbox-gallery="fancybox-item-03" class="lightbox iframe"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Sleepy Games</h3>
+
+                <p class="category">lightbox video</p>
+            </div>
+        </div> -->
+        <!-- <div class="media-cell coding audio hentry">
+            <div class="media-box">
+                <img src="images/portfolio/06.png" alt="portfolio-post" width="326">
+
+                <div class="mask">                lightbox - soundcloud
+                    <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129829419&amp;color=009966&amp;auto_play=false&amp;show_artwork=true"
+                       title="Soundcloud embed" data-lightbox-gallery="fancybox-item-04"
+                       class="lightbox iframe"></a>
+                    lightbox - soundcloud            </div>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Empty Battery</h3>
+
+                <p class="category">lightbox soundcloud</p>
+            </div>
+        </div> -->
+
+
+        <!-- <div class="media-cell logo image hentry">
+            <div class="media-box">
+                <img src="images/portfolio/07.png" alt="portfolio-post" width="326">
+
+                <div class="mask">                lightbox - gallery
+                    <a href="images/portfolio/lightbox-02.jpg" data-lightbox-gallery="fancybox-item-02"
+                       class="lightbox"
+                       title="Octopus is dangerous!"></a>
+                    <a href="images/portfolio/lightbox-03.jpg" data-lightbox-gallery="fancybox-item-02"
+                       class="hidden lightbox"></a>
+                    <a href="images/portfolio/lightbox-04.jpg" data-lightbox-gallery="fancybox-item-02"
+                       class="hidden lightbox" title="Dog have dreams"></a>
+                    lightbox - gallery            </div>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Wizard Adventure</h3>
+
+                <p class="category">lightbox gallery</p>
+            </div>
+        </div>
+
+
+        <div class="media-cell logo url hentry">
+            <div class="media-box">
+                <img src="images/portfolio/08.png" alt="portfolio-post" width="326">
+
+                <div class="mask">
+                    <a href="http://themeforest.net/user/PEZZO" target="_blank"></a>
+                </div>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Shinny Robot</h3>
+
+                <p class="category">an illustration work</p>
+            </div>
+        </div>
+
+        <div class="media-cell coding hentry">
+            <div class="media-box">
+                <img src="images/portfolio/16.png" alt="portfolio-post" width="326">
+
+                <div class="mask">
+                    <a href="portfolio-item-03.html" class="ajax"></a>
+                </div>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Virus Protection</h3>
+
+                <p class="category">an illustration work</p>
+            </div>
+        </div>
+        <div class="media-cell design hentry">
+            <div class="media-box">
+                <img src="images/portfolio/14.png" alt="portfolio-post" width="326">
+
+                <div class="mask">
+                    <a href="portfolio-item-01.html" class="ajax"></a>
+                </div>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Red Diamond</h3>
+
+                <p class="category">an illustration work</p>
+            </div>
+        </div>
+        <div class="media-cell design hentry">
+            <div class="media-box">
+                <img src="images/portfolio/15.png" alt="portfolio-post" width="326">
+
+                <div class="mask">
+                    <a href="portfolio-item-02.html" class="ajax"></a>
+                </div>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Sky is The Limit</h3>
+
+                <p class="category">an illustration work</p>
+            </div>
+        </div>
+        <div class="media-cell logo hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/11.jpg" alt="portfolio-post" width="326">
+
+                <div class="mask">
+                    <a href="portfolio-item-03.html" class="ajax"></a>
+                </div>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Behind The Eyes</h3>
+
+                <p class="category">an illustration work</p>
+            </div>
+        </div> -->
     </div>
-</div> -->
-</div>
 </div>
 <!-- CONTENT --></section>
 <!-- PAGE : CONTACT -->
