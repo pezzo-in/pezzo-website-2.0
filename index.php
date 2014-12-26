@@ -43,11 +43,6 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <script src="js/selectivizr-min.js"></script>
-    <script language="javascript" type="text/javascript">
-        function resizeIframe(obj) {
-            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-        }
-    </script>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="style-switcher/style.css">
     <link rel="stylesheet" class="base-skin" type="text/css" href="#">
@@ -79,14 +74,13 @@
     <!-- <img src="images/site/badge.png" alt="avatar"> -->
 
     <h1 id="h1special"><img src="images/site/logo-prime.png" alt=""/></h1>
-    <!--<p>marketing consultation</p>-->
+    <!--<p>marketing consultants</p>-->
     <!-- NAV MENU -->
     <ul class="vs-nav">
         <!-- InstanceBeginEditable name="Menu-Content" -->
         <li><a href="#/about" onClick="_gaq.push(['_trackEvent', 'About us']);">About us</a></li>
         <li><a href="#/services" onClick="_gaq.push(['_trackEvent', 'Services']);">Services</a></li>
         <li><a href="#/portfolio" onClick="_gaq.push(['_trackEvent', 'Portfolio']);">Portfolio</a></li>
-        <li><a href="#/blog" onClick="_gaq.push(['_trackEvent', 'Blog']);">Blog</a></li>
         <li><a href="#/contact" onClick="_gaq.push(['_trackEvent', 'Contact']);">Contact</a></li>
         <!-- <li><a href="#/blog">blog</a></li> -->
         <!-- InstanceEndEditable -->
@@ -137,7 +131,22 @@
     <!-- column 4/12 -->
     <div class="col-md-4">
         <h2 class="section-title"><span><i class="icon-twitter"></i>FACEBOOK FEEDS</span></h2>
+
         <!--<div id="latest-tweets" class="widget-twitter" data-twitterId="388393979615179613" data-tweet-count="1"></div>-->
+
+        <!--<div id="fb-root"></div>-->
+        <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=236277823092390";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        <!--<div class="fb-like-box" data-href="https://www.facebook.com/GenYAwakeningIndia" data-width="960"
+             data-colorscheme="light" data-show-faces="true" data-header="false"
+             data-stream="true" data-show-border="false">
+        </div>-->
     </div>
     <!-- column 4/12 -->
 </div>
@@ -288,126 +297,126 @@
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/zuari-cement.png" alt="client">
+                <img src="images/clients/zuari-cement.png"  width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/axinovate.png" alt="client">
+                <img src="images/clients/axinovate.png"  width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/bittye.png" alt="client">
+                <img src="images/clients/bittye.png"  width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/castle-key.png" alt="client">
+                <img src="images/clients/castle-key.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/fitness-cube.png" alt="client">
+                <img src="images/clients/fitness-cube.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/framebox.png" alt="client">
+                <img src="images/clients/framebox.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/gyai.png" alt="client">
+                <img src="images/clients/gyai.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/light-shadow.png" alt="client">
+                <img src="images/clients/light-shadow.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/mySmaty.png" alt="client">
+                <img src="images/clients/mySmaty.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/silkboard-India.png" alt="client">
+                <img src="images/clients/silkboard-India.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/tech-mahendra.png" alt="client">
+                <img src="images/clients/tech-mahendra.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/vision-cinemas.png" alt="client">
+                <img src="images/clients/vision-cinemas.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/aditya-interio.png" alt="client">
+                <img src="images/clients/aditya-interio.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/zuari-furniture.png" alt="client">
+                <img src="images/clients/zuari-furniture.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/magic-create.png" alt="client">
+                <img src="images/clients/magic-create.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/pearson.png" alt="client">
+                <img src="images/clients/pearson.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/parva.png" alt="client">
+                <img src="images/clients/parva.png" width="114" alt="client">
             </a>
         </div>
     </div>
     <div class="col-xs-6 col-sm-4 col-md-2">
         <div class="client">
             <a href="#">
-                <img src="images/clients/waks.png" alt="client">
+                <img src="images/clients/waks.png" width="114" alt="client">
             </a>
         </div>
     </div>
@@ -684,7 +693,7 @@
 <div class="portfolio-items media-grid" data-layout="masonry">
 <div class="media-cell photography image hentry">
     <div class="media-box">
-        <img src="images/portfolio/photography/03.jpg" alt="portfolio-post">
+        <img src="images/portfolio/photography/thumbnail-03.jpg" alt="portfolio-post">
 
         <div class="mask">
             <a href="images/portfolio/photography/03.jpg" title="Dark spray"
@@ -710,7 +719,7 @@
 </div> -->
 <div class="media-cell marketing webdesign branding print hentry x2">
     <div class="media-box">
-        <img src="images/portfolio/bittye/1.jpg" alt="portfolio-post">
+        <img src="images/portfolio/bittye/thumbnail.jpg" alt="portfolio-post">
 
         <div class="mask"></div>
         <a href="portfolio-bittye.html" class="ajax"></a>
@@ -749,7 +758,7 @@
 </div>
 <div class="media-cell photography image hentry x1">
     <div class="media-box">
-        <img src="images/portfolio/photography/02.jpg" alt="portfolio-post">
+        <img src="images/portfolio/photography/thumbnail-02.jpg" alt="portfolio-post">
 
         <div class="mask">
             <a href="images/portfolio/photography/02.jpg" title="Classicals"
@@ -788,7 +797,7 @@
 </div>
 <div class="media-cell branding marketing hentry x2">
     <div class="media-box">
-        <img src="images/portfolio/my-smaty/4.jpg" alt="portfolio-post">
+        <img src="images/portfolio/my-smaty/thumbnail.jpg" alt="portfolio-post">
 
         <div class="mask"></div>
         <a href="portfolio-mysmaty.html" class="ajax"></a>
@@ -827,7 +836,7 @@
 </div>
 <div class="media-cell branding marketing hentry x1">
     <div class="media-box">
-        <img src="images/portfolio/axinovate/1.jpg" alt="portfolio-post">
+        <img src="images/portfolio/axinovate/thumbnail.jpg" alt="portfolio-post">
 
         <div class="mask"></div>
         <a href="portfolio-axinovate.html" class="ajax"></a>
@@ -967,18 +976,6 @@
 </div>
 <!-- CONTENT --></section>
 <!-- PAGE : CONTACT -->
-<section id="blog" class="page">
-    <div class="content">
-        <!-- row -->
-        <div class="row">
-            <!-- column 6/12 -->
-            <div class="col-md-12">
-                <iframe name="Stack" src="http://pezzo.in/blog" frameborder="0" scrolling="no" id="iframe" onload='resizeIframe(this);' />
-            </div>
-        </div>
-        <!-- row -->
-    </div>
-</section>
 <section id="contact" class="page">
     <div class="content">
         <!-- row -->

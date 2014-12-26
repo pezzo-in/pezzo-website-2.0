@@ -1,1 +1,5 @@
 User-agent: *
+Disallow: /js
+Disallow: /madia
+Disallow: /style-switcher
+Disallow: /css
