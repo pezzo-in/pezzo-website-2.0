@@ -80,6 +80,9 @@
         <!-- InstanceBeginEditable name="Menu-Content" -->
         <li><a href="#/about" onClick="_gaq.push(['_trackEvent', 'About us']);">About us</a></li>
         <li><a href="#/services" onClick="_gaq.push(['_trackEvent', 'Services']);">Services</a></li>
+<!--
+        <li><a href="#/blog" onClick="_gaq.push(['_trackEvent', 'Blog']);">Blog</a></li>
+-->
         <li><a href="#/portfolio" onClick="_gaq.push(['_trackEvent', 'Portfolio']);">Portfolio</a></li>
         <li><a href="#/contact" onClick="_gaq.push(['_trackEvent', 'Contact']);">Contact</a></li>
         <!-- <li><a href="#/blog">blog</a></li> -->
@@ -678,6 +681,15 @@
 </div>
 </section>
 <!-- PAGE : RESUME -->
+    <!--<section id="blog" class="page">
+        <div class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <iframe src="http://pezzo.in/blog" frameborder="0" class="col-md-12"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>-->
 <section id="portfolio" class="portfolio page">
 <div class="content">
 <!--<h2 class="section-title center"><span><i class="icon-leaf"></i>OUR WORKS</span></h2>-->
@@ -704,6 +716,19 @@
                 <p class="category">an illustration work</p>
             </div>
         </div> -->
+        <div class="media-cell photography image hentry">
+            <div class="media-box">
+                <img src="images/portfolio/photography/thumbnail-03.jpg" alt="portfolio-post" width="326" height="245">
+
+                <div class="mask">
+                    <a href="images/portfolio/photography/03.jpg" title="Dark spray"
+                       data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
+                </div>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Dark spray</h1>
+            </div>
+        </div>
         <div class="media-cell marketing webdesign branding print hentry x2">
             <div class="media-box">
                 <img src="images/portfolio/bittye/thumbnail.jpg" alt="portfolio-post" width="629" height="354">
@@ -832,19 +857,6 @@
                 <h1 class="seospecial">Axinovate</h1>
 
                 <p class="category">Cinematography &amp; Design</p>
-            </div>
-        </div>
-        <div class="media-cell photography image hentry">
-            <div class="media-box">
-                <img src="images/portfolio/photography/thumbnail-03.jpg" alt="portfolio-post" width="326" height="245">
-
-                <div class="mask">
-                    <a href="images/portfolio/photography/03.jpg" title="Dark spray"
-                       data-lightbox-gallery="fancybox-item-01" class="lightbox"></a>
-                </div>
-            </div>
-            <div class="media-cell-desc">
-                <h1 class="seospecial">Dark spray</h1>
             </div>
         </div>
         <!-- <div class="media-cell coding video hentry">
@@ -994,9 +1006,17 @@
 
                         <p><i class="icon-phone"></i>+91 9886 312 325</p>
 
-                        <p><i class="icon-location address-icon"></i>Vanamali, G-1, #2&amp;3 <br>
+                        <p><i class="icon-location address-icon" style="margin-bottom: 60px;"></i><strong>Bangalore:</strong> <br/>
+                            Vanamali, G-1, #2&amp;3 <br>
                             Behind Abbai Naidu Studio<br>
-                            Chikkalasandra, Bangalore 560 061</p>
+                            Chikkalasandra, Bangalore 560 061
+                        </p>
+                        <br/>
+                        <p><i class="icon-location address-icon" style="margin-bottom: 60px;"></i><strong>Hyderabad:</strong> <br/>
+                            Sai Sharan Apartment <br/>
+                            Anand Nagar Colony, Anand Nagar, Khairatabad <br/>
+                            Hyderabad, Telangana 500004
+                        </p>
                     </div>
                 </div>
                 <!-- LETTER -->
@@ -1270,6 +1290,9 @@
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
+<script>
+    $('iframe').height($('body').height());
+</script>
 </body>
 <!-- InstanceEnd -->
 </html>
