@@ -110,7 +110,7 @@
     <div class="col-md-8">
         <h2 class="section-title"><span><i class="icon-guest"></i>A LITTLE ABOUT US</span></h2>
         <!-- intro -->
-        <div class="intro">
+        <div class="intro" itemscope>
             <h2>
                 Hello, we provide
                     <span class="rotate-words">
@@ -1268,26 +1268,10 @@
 <div class="site-alert animated"></div>
 <!-- InstanceEndEditable -->
 <!-- SCRIPTS -->
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/jquery-migrate-1.2.1.min.js"></script>
-<script src="js/jquery.address-1.5.min.js"></script>
-<script src="js/triple.layout.js"></script>
-<script src="js/smoothscroll.js"></script>
+<script src="js/single-min.js"></script>
 <script src="js/nprogress/nprogress.js"></script>
-<script src="js/fastclick.js"></script>
-<script src="js/jquery.imagesloaded.min.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/jquery.fitvids.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/jquery.uniform.min.js"></script>
-<script src="js/jquery.fancybox-1.3.4.pack.js"></script>
-<script src="js/jquery.tooltipster.min.js"></script>
 <script src="js/google-code-prettify/prettify.js"></script>
-<script src="js/twitterFetcher_v10_min.js"></script>
 <script src="js/mediaelement/mediaelement-and-player.min.js"></script>
-<script src="js/send-mail.js"></script>
-<script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
 <script>
