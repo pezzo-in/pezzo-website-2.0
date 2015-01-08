@@ -695,7 +695,7 @@ a.button.colored{color:#fff;border-color:transparent;}
 .portfolio-field p{margin-top:0}
 .portfolio-field img,
 .portfolio-field .fluid-width-video-wrapper,
-.portfolio-field video{margin-bottom:50px;}
+.portfolio-field video{margin-bottom:50px; border:10px solid #eeeeee;}
 .portfolio-title h2{margin:0;font-size:2em;}
 .portfolio-field h3{margin:2em 0 .6em 0;font-size:1.3em;text-transform:uppercase;font-weight:800;color:#c8d3d6;}
 .portfolio-field h3:first-child{margin-top:0}

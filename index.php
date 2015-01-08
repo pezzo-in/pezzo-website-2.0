@@ -2,12 +2,11 @@
 <html lang="en" class="no-js one-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true"
       data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
 <head>
-    <title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography |
-        Cinematography </title>
+    <title>Pezzo Marketing Consultation - Home</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description"
-          content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
+          content="Marketing consultation- pezzo offering' services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
     <meta name="keywords"
           content="marketing consultation- web development, branding, consultation, seo, sem, smm, digital marketing, website optimization, web page optimization, digital, marketing, search engine marketing, search engine, social media marketing, creative designing, creative writing, print solutions, photography, cinematography, motion graphics, bangalore, mobile application development, marketing consultation, brand consultation, graphic designing, Search engine, search engine optimization, optimization, website, web, web development, web page">
     <meta name="author" content="PEZZO">
@@ -110,18 +109,18 @@
     <div class="col-md-8">
         <h2 class="section-title"><span><i class="icon-guest"></i>A LITTLE ABOUT US</span></h2>
         <!-- intro -->
-        <div class="intro" itemscope>
+        <div class="intro" itemscope itemtype="http://schema.org/CreativeWork">
             <h2>
                 Hello, we provide
                     <span class="rotate-words">
-                        <span>Marketing Consultation</span>
-                        <span>Branding</span>
-                        <span>Web Development</span>
-                        <span>Motion Design</span>
-                        <span>Graphic Design</span>
-                        <span>Photography</span>
-                        <span>Cinematography</span>
-                        <span>Print</span>
+                        <span itemscope itemtype="http://schema.org/Service">Marketing Consultation</span>
+                        <span itemscope itemtype="http://schema.org/Service">Branding</span>
+                        <span itemscope itemtype="http://schema.org/Service">Web Development</span>
+                        <span itemscope itemtype="http://schema.org/Service">Motion Design</span>
+                        <span itemscope itemtype="http://schema.org/Service">Graphic Design</span>
+                        <span itemscope itemtype="http://schema.org/Service">Photography</span>
+                        <span itemscope itemtype="http://schema.org/Service">Cinematography</span>
+                        <span itemscope itemtype="http://schema.org/Service">Print</span>
                     </span>
                 <br>
                 We live serving giants, We love serving start-ups <br>
@@ -716,6 +715,58 @@
                 <p class="category">an illustration work</p>
             </div>
         </div> -->
+        <div class="media-cell design branding print hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/srisakthi/thumbnail.jpg" alt="portfolio-post" width="326" height="210">
+
+                <div class="mask"></div>
+                <a href="portfolio-srisakthi.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Sri Sakthi</h1>
+
+                <p class="category">Branding, Print &amp; Design</p>
+            </div>
+        </div>
+        <div class="media-cell design branding print hentry x1">
+            <div class="media-box">
+                <img src="images/portfolio/samarrun/thumbnail.jpg" alt="portfolio-post" width="326" height="210">
+
+                <div class="mask"></div>
+                <a href="portfolio-samarrun.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">SamArrun</h1>
+
+                <p class="category">Branding &amp; Design</p>
+            </div>
+        </div>
+        <div class="media-cell design branding print hentry x2">
+            <div class="media-box">
+                <img src="images/portfolio/freshmakers/thumbnail.jpg" alt="portfolio-post" width="326" height="210">
+
+                <div class="mask"></div>
+                <a href="portfolio-freshmakers.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Fresh Makers</h1>
+
+                <p class="category">Branding, Design &amp; Print</p>
+            </div>
+        </div>
+        <div class="media-cell webdesign branding hentry x2">
+            <div class="media-box">
+                <img src="images/portfolio/bitDigit/thumbnail.jpg" alt="portfolio-post" width="326" height="210">
+
+                <div class="mask"></div>
+                <a href="portfolio-bitDigit.html" class="ajax"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">BitDigit</h1>
+
+                <p class="category">Branding &amp; Webdesign</p>
+            </div>
+        </div>
         <div class="media-cell photography image hentry">
             <div class="media-box">
                 <img src="images/portfolio/photography/thumbnail-03.jpg" alt="portfolio-post" width="326" height="245">
@@ -729,7 +780,7 @@
                 <h1 class="seospecial">Dark spray</h1>
             </div>
         </div>
-        <div class="media-cell marketing webdesign branding print hentry x2">
+        <div class="media-cell webdesign branding hentry x2">
             <div class="media-box">
                 <img src="images/portfolio/bittye/thumbnail.jpg" alt="portfolio-post" width="629" height="354">
 
@@ -794,6 +845,20 @@
                 <p class="category">Branding, Photography &amp; Website</p>
             </div>
         </div>
+        <div class="media-cell cinematography hentry">
+            <div class="media-box">
+                <img src="images/portfolio/464203235_295x166.jpg" alt="portfolio-post" width="326">
+
+                <div class="mask"></div>
+                <a href="http://player.vimeo.com/video/86505105?title=0&amp;byline=0&amp;portrait=0&amp;color=009966"
+                   title="Paper by FiftyThree" data-lightbox-gallery="fancybox-item-03" class="lightbox iframe"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Sleepy Games</h1>
+
+                <p class="category">lightbox video</p>
+            </div>
+        </div>
         <div class="media-cell print cinematography hentry x1">
             <div class="media-box">
                 <img src="images/portfolio/pearson/thumbnail.jpg" alt="portfolio-post" width="326" height="109">
@@ -833,6 +898,20 @@
                 <p class="category">Cinematography &amp; Design</p>
             </div>
         </div>
+        <div class="media-cell cinematography hentry">
+            <div class="media-box">
+                <img src="images/portfolio/473984646_295x166.jpg" alt="portfolio-post" width="326">
+
+                <div class="mask"></div>
+                <a href="http://player.vimeo.com/video/94020664?title=0&amp;byline=0&amp;portrait=0&amp;color=009966"
+                   title="Paper by FiftyThree" data-lightbox-gallery="fancybox-item-03" class="lightbox iframe"></a>
+            </div>
+            <div class="media-cell-desc">
+                <h1 class="seospecial">Sleepy Games</h1>
+
+                <p class="category">lightbox video</p>
+            </div>
+        </div>
         <div class="media-cell branding print marketing hentry x1">
             <div class="media-box">
                 <img src="images/portfolio/money-and-me/thumbnail.jpg" alt="portfolio-post" width="326" height="223">
@@ -859,20 +938,6 @@
                 <p class="category">Cinematography &amp; Design</p>
             </div>
         </div>
-        <!-- <div class="media-cell coding video hentry">
-            <div class="media-box">
-                <img src="images/portfolio/03.png" alt="portfolio-post" width="326">
-
-                <div class="mask"></div>
-                <a href="http://player.vimeo.com/video/79380715?title=0&amp;byline=0&amp;portrait=0&amp;color=009966"
-                   title="Paper by FiftyThree" data-lightbox-gallery="fancybox-item-03" class="lightbox iframe"></a>
-            </div>
-            <div class="media-cell-desc">
-                <h1 class="seospecial">Sleepy Games</h3>
-
-                <p class="category">lightbox video</p>
-            </div>
-        </div> -->
         <!-- <div class="media-cell coding audio hentry">
             <div class="media-box">
                 <img src="images/portfolio/06.png" alt="portfolio-post" width="326">
