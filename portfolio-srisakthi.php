@@ -3,20 +3,14 @@
       data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
 <!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
- <title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title>
+    <title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Castle Key is dedicated to bringing new and creative ideas to the market place,
-                        both in our product offerings as well as our marketing events. We view ourselves as partners
-                        with our customers, our employees, our community and our environment. We aim to become a
-                        globally recognized brand. We will continue to develop our unique brand positioning, to maintain
-                        and grow our solid brand recognition, and to adhere to high quality design standards. Because
-                        everyone wants to have fun everyday,Castle Key will continue to offer something for everyone
-                        with fun always in mind.">
+    <meta name="description" content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
     <meta name="keywords"
           content="marketing consultation- web development, branding, consultation, seo, sem, smm, digital marketing, website optimization, web page optimization, digital, marketing, search engine marketing, search engine, social media marketing, creative designing, creative writing, print solutions, photography, cinematography, motion graphics, bangalore, mobile application development, marketing consultation, brand consultation, graphic designing, Search engine, search engine optimization, optimization, website, web, web development, web page">
     <meta name="author" content="PEZZO"><meta name="robots" content="index,follow">
-   <!-- FAV and TOUCH ICONS -->
+    <!-- FAV and TOUCH ICONS -->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
     <script src="js/modernizr.custom.js"></script>
@@ -53,41 +47,11 @@
 </head>
 
 
-<script type="text/javascript" async defer  data-pin-color="red" data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
 <body>
 
 <!-- CONTAINER -->
 <div class="container" id="container">
-
-    <!-- HEADER -->
-    <header class="header">
-
-
-        <h1>PEZZO</h1>
-
-        <p>marketing consultation</p>
-
-        <!-- NAV MENU -->
-        <ul class="vs-nav">
-            <!-- InstanceBeginEditable name="Menu-Content" -->
-            <li><a href="index.php#/portfolio"><i title="back to portfolio" class="icon-left-open tooltip"
-                                                     data-tooltip-pos="left"></i></a></li>
-            <li><a href="index.php"><i title="go to home" class="icon-home-1 tooltip"
-                                          data-tooltip-pos="right"></i></a></li>
-            <!-- InstanceEndEditable -->
-
-        </ul>
-        <!-- NAV MENU -->
-        <!-- SEARCH -->
-        <div class="header-search">
-            <form role="search" method="get" id="search-form" action="#">
-                <input type="text" value="" name="s" id="search" placeholder="ENTER KEYWORD">
-                <input type="submit" id="search-submit" title="Search" value="→">
-            </form>
-        </div>
-        <!-- SEARCH -->
-    </header>
-    <!-- HEADER -->
     <!-- WRAPPER -->
     <div class="wrapper">
         <!-- InstanceBeginEditable name="Page-Content" -->
@@ -98,13 +62,13 @@
 
                 <!-- TITLE - column 8/12 -->
                 <div class="col-md-8 portfolio-field portfolio-title">
-                    <h2>Castle Key</h2>
+                    <h2>Sri Sakthi</h2>
                 </div>
                 <!-- TITLE - column 8/12 -->
                 <!-- PORTFOLIO-NAV - column 4/12 -->
                 <div class="col-md-4 portfolio-field portfolio-nav">
-                    <a class="icon button prev ajax" href="portfolio-parva.html"></a>
-                    <a class="icon button next ajax" href="portfolio-pearson.html"></a>
+                    <a class="icon button prev ajax" href="portfolio-money-and-me.php"></a>
+                    <a class="icon button next ajax" href="portfolio-neeladhri-ceramics.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV - column 4/12 -->
@@ -115,53 +79,62 @@
 
                 <!-- PORTFOLIO-IMAGES - column 8/12 -->
                 <div class="col-md-8 portfolio-field">
-                    <img src="images/portfolio/castle-key/2.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/3.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/4.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/5.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/6.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/7.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/8.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/9.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/10.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/11.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/12.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/13.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/14.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/15.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/16.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/17.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/18.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/19.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/20.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/21.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/22.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/desktop.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/tablet.jpg" alt="project">
-                    <img src="images/portfolio/castle-key/mobile.jpg" alt="project">
+                    <img src="images/portfolio/srisakthi/2.jpg" width="940" height="643" alt="project">
+                    <img src="images/portfolio/srisakthi/3.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/srisakthi/4.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/srisakthi/5.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/srisakthi/6.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/srisakthi/7.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/srisakthi/8.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/srisakthi/9.jpg" width="940" height="643" alt="project">
+                    <img src="images/portfolio/srisakthi/10.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/srisakthi/11.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/srisakthi/12.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/srisakthi/13.jpg" width="940" height="752" alt="project">
+                    <img src="images/portfolio/srisakthi/14.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/srisakthi/15.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/srisakthi/16.jpg" width="940" height="588" alt="project">
+                    <img src="images/portfolio/srisakthi/17.jpg" width="940" height="704" alt="project">
+                    <img src="images/portfolio/srisakthi/18.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/srisakthi/19.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/srisakthi/20.jpg" width="940" height="899" alt="project">
+                    <img src="images/portfolio/srisakthi/21.jpg" width="940" height="899" alt="project">
+                    <img src="images/portfolio/srisakthi/22.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/23.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/24.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/25.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/26.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/27.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/28.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/29.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/30.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/31.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/32.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/33.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/34.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/35.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/36.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/37.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/38.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/39.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/40.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/41.jpg" width="940" height="685" alt="project">
+                    <img src="images/portfolio/srisakthi/42.jpg" width="940" height="685" alt="project">
                 </div>
                 <!-- PORTFOLIO-IMAGES - column 8/12 -->
                 <!-- PORTFOLIO SIDEBAR - column 4/12 -->
                 <div class="col-md-4 portfolio-field">
-                    <h3>Description</h3>
-
-                    <p class="margin-p"> Castle Key is dedicated to bringing new and creative ideas to the market place,
-                        both in our product offerings as well as our marketing events. We view ourselves as partners
-                        with our customers, our employees, our community and our environment. We aim to become a
-                        globally recognized brand. We will continue to develop our unique brand positioning, to maintain
-                        and grow our solid brand recognition, and to adhere to high quality design standards. Because
-                        everyone wants to have fun everyday,Castle Key will continue to offer something for everyone
-                        with fun always in mind.</p>
 
                     <h3>Client</h3>
 
-                    <p>Castle key</p>
+                    <p>BITTYE</p>
 
-                    <h3>Technology</h3>
+                    <h3>Services</h3>
                     <ul class="tags">
-                        <li><a>Branding</a></li>
-                        <li><a>Photography</a></li>
                         <li><a>Website</a></li>
+                        <li><a>Branding</a></li>
+                        <li><a>Design</a></li>
+                        <li><a>Marketing consultation</a></li>
                     </ul>
                 </div>
                 <!-- PORTFOLIO SIDEBAR - column 4/12 -->
@@ -172,8 +145,8 @@
 
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
                 <div class="col-md-12 portfolio-field portfolio-nav bottom">
-                    <a class="icon button prev ajax" href="portfolio-item-03.html"></a>
-                    <a class="icon button next ajax" href="portfolio-pearson.html"></a>
+                    <a class="icon button prev ajax" href="additional%20files/portfolio-item-03.html"></a>
+                    <a class="icon button next ajax" href="portfolio-neeladhri-ceramics.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
@@ -212,6 +185,7 @@
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
+<?php include "scripts.php"?>
 </body>
 <!-- InstanceEnd -->
 </html>

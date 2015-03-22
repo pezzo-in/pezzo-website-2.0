@@ -46,7 +46,7 @@
 </head>
 
 
-<script type="text/javascript" async defer  data-pin-color="red" data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
 <body>
 
 <!-- CONTAINER -->
@@ -66,8 +66,8 @@
                 <!-- TITLE - column 8/12 -->
                 <!-- PORTFOLIO-NAV - column 4/12 -->
                 <div class="col-md-4 portfolio-field portfolio-nav">
-                    <a class="icon button prev ajax" href="portfolio-axiom.html"></a>
-                    <a class="icon button next ajax" href="portfolio-money-and-me.html"></a>
+                    <a class="icon button prev ajax" href="portfolio-axiom.php"></a>
+                    <a class="icon button next ajax" href="portfolio-money-and-me.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV - column 4/12 -->
@@ -113,8 +113,8 @@
 
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
                 <div class="col-md-12 portfolio-field portfolio-nav bottom">
-                    <a class="icon button prev ajax" href="portfolio-item-03.html"></a>
-                    <a class="icon button next ajax" href="portfolio-money-and-me.html"></a>
+                    <a class="icon button prev ajax" href="additional%20files/portfolio-item-03.html"></a>
+                    <a class="icon button next ajax" href="portfolio-money-and-me.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
@@ -153,6 +153,7 @@
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
+<?php include "scripts.php"?>
 </body>
 <!-- InstanceEnd -->
 <!-- Mirrored from themes.PEZZO.org/PEZZO/portfolio-item-01.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Jun 2014 04:53:58 GMT -->

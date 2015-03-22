@@ -2,7 +2,7 @@
 <html lang="en" class="no-js single-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true"
       data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
 <head>
-    <title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title>
+<title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
@@ -46,7 +46,7 @@
 </head>
 
 
-<script type="text/javascript" async defer  data-pin-color="red" data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
 <body>
 
 <!-- CONTAINER -->
@@ -61,36 +61,28 @@
 
                 <!-- TITLE - column 8/12 -->
                 <div class="col-md-8 portfolio-field portfolio-title">
-                    <h2>Axinovate</h2>
+                    <h2>Axiom Bi-Focal</h2>
                 </div>
                 <!-- TITLE - column 8/12 -->
                 <!-- PORTFOLIO-NAV - column 4/12 -->
                 <div class="col-md-4 portfolio-field portfolio-nav">
-                    <a class="icon button prev ajax" href="portfolio-axiom.html"></a>
-                    <a class="icon button next ajax" href="portfolio-money-and-me.html"></a>
+                    <a class="icon button prev ajax" href="portfolio-mysmaty.php"></a>
+                    <a class="icon button next ajax" href="portfolio-axinovate.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV - column 4/12 -->
             </div>
             <!-- .row -->
+            <!-- .row -->
             <div class="row">
 
                 <!-- PORTFOLIO-IMAGES - column 8/12 -->
                 <div class="col-md-8 portfolio-field">
-                    <img src="images/portfolio/freshmakers/2.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/3.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/4.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/5.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/6.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/7.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/7a.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/7b.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/8.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/8a.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/8b.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/8c.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/9.jpg" alt="project">
-                    <img src="images/portfolio/freshmakers/10.jpg" alt="project">
+                    <img src="images/portfolio/axiom/desktop1.png" alt="project">
+                    <img src="images/portfolio/axiom/desktop.png" alt="project">
+                    <img src="images/portfolio/axiom/tablet1.png" alt="project">
+                    <img src="images/portfolio/axiom/tablet.png" alt="project">
+                    <img src="images/portfolio/axiom/mobile.png" alt="project">
                 </div>
                 <!-- PORTFOLIO-IMAGES - column 8/12 -->
                 <!-- PORTFOLIO SIDEBAR - column 4/12 -->
@@ -98,13 +90,12 @@
 
                     <h3>Client</h3>
 
-                    <p>Fresh Makers</p>
+                    <p>Axiom</p>
 
                     <h3>Services</h3>
                     <ul class="tags">
-                        <li><a>branding</a></li>
-                        <li><a>Design</a></li>
-                        <li><a>Print</a></li>
+                        <li><a>UI development</a></li>
+                        <li><a>UX consultation</a></li>
                     </ul>
                 </div>
                 <!-- PORTFOLIO SIDEBAR - column 4/12 -->
@@ -115,8 +106,8 @@
 
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
                 <div class="col-md-12 portfolio-field portfolio-nav bottom">
-                    <a class="icon button prev ajax" href="portfolio-item-03.html"></a>
-                    <a class="icon button next ajax" href="portfolio-money-and-me.html"></a>
+                    <a class="icon button prev ajax" href="additional%20files/portfolio-item-03.html"></a>
+                    <a class="icon button next ajax" href="portfolio-axinovate.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
@@ -155,7 +146,7 @@
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
+<?php include "scripts.php"?>
 </body>
 <!-- InstanceEnd -->
-<!-- Mirrored from themes.PEZZO.org/PEZZO/portfolio-item-01.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Jun 2014 04:53:58 GMT -->
 </html>

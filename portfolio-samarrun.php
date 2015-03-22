@@ -3,10 +3,10 @@
       data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
 <!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-<title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title>
+    <title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-   <meta name="description" content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
+    <meta name="description" content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
     <meta name="keywords"
           content="marketing consultation- web development, branding, consultation, seo, sem, smm, digital marketing, website optimization, web page optimization, digital, marketing, search engine marketing, search engine, social media marketing, creative designing, creative writing, print solutions, photography, cinematography, motion graphics, bangalore, mobile application development, marketing consultation, brand consultation, graphic designing, Search engine, search engine optimization, optimization, website, web, web development, web page">
     <meta name="author" content="PEZZO"><meta name="robots" content="index,follow">
@@ -47,38 +47,11 @@
 </head>
 
 
-<script type="text/javascript" async defer  data-pin-color="red" data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
 <body>
 
 <!-- CONTAINER -->
 <div class="container" id="container">
-
-    <!-- HEADER -->
-    <header class="header">
-
-
-        <h1>MySmaty</h1>
-        <!-- NAV MENU -->
-        <ul class="vs-nav">
-            <!-- InstanceBeginEditable name="Menu-Content" -->
-            <li><a href="index.php#/portfolio"><i title="back to portfolio" class="icon-left-open tooltip"
-                                                     data-tooltip-pos="left"></i></a></li>
-            <li><a href="index.php"><i title="go to home" class="icon-home-1 tooltip"
-                                          data-tooltip-pos="right"></i></a></li>
-            <!-- InstanceEndEditable -->
-
-        </ul>
-        <!-- NAV MENU -->
-        <!-- SEARCH -->
-        <div class="header-search">
-            <form role="search" method="get" id="search-form" action="#">
-                <input type="text" value="" name="s" id="search" placeholder="ENTER KEYWORD">
-                <input type="submit" id="search-submit" title="Search" value="→">
-            </form>
-        </div>
-        <!-- SEARCH -->
-    </header>
-    <!-- HEADER -->
     <!-- WRAPPER -->
     <div class="wrapper">
         <!-- InstanceBeginEditable name="Page-Content" -->
@@ -89,13 +62,13 @@
 
                 <!-- TITLE - column 8/12 -->
                 <div class="col-md-8 portfolio-field portfolio-title">
-                    <h2>mySmaty</h2>
+                    <h2>SamArrun</h2>
                 </div>
                 <!-- TITLE - column 8/12 -->
                 <!-- PORTFOLIO-NAV - column 4/12 -->
                 <div class="col-md-4 portfolio-field portfolio-nav">
-                    <a class="icon button prev ajax" href="portfolio-castle-key.html"></a>
-                    <a class="icon button next ajax" href="portfolio-axiom.html"></a>
+                    <a class="icon button prev ajax" href="portfolio-money-and-me.php"></a>
+                    <a class="icon button next ajax" href="portfolio-neeladhri-ceramics.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV - column 4/12 -->
@@ -106,45 +79,43 @@
 
                 <!-- PORTFOLIO-IMAGES - column 8/12 -->
                 <div class="col-md-8 portfolio-field">
-                    <img src="images/portfolio/my-smaty/1.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/3.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/4.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/5.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/6.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/7.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/8.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/9.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/9a.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/9b.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/9c.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/10.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/11.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/12.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/13.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/14.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/15.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/16.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/17.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/18.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/19.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/20.jpg" alt="MySmaty">
-                    <img src="images/portfolio/my-smaty/21.jpg" alt="MySmaty">
+                    <img src="images/portfolio/samarrun/1.jpg" width="940" height="643" alt="project">
+                    <img src="images/portfolio/samarrun/2.jpg" width="940" height="643" alt="project">
+                    <img src="images/portfolio/samarrun/3.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/samarrun/4.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/samarrun/5.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/samarrun/6.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/samarrun/7.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/samarrun/8.jpg" width="940" height="963" alt="project">
+                    <img src="images/portfolio/samarrun/9.jpg" width="940" height="643" alt="project">
+                    <img src="images/portfolio/samarrun/10.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/samarrun/11.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/samarrun/12.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/samarrun/13.jpg" width="940" height="752" alt="project">
+                    <img src="images/portfolio/samarrun/13a.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/samarrun/14.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/samarrun/15.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/samarrun/16.jpg" width="940" height="588" alt="project">
+                    <img src="images/portfolio/samarrun/17.jpg" width="940" height="704" alt="project">
+                    <img src="images/portfolio/samarrun/18.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/samarrun/19.jpg" width="940" height="705" alt="project">
+                    <img src="images/portfolio/samarrun/20.jpg" width="940" height="899" alt="project">
+                    <img src="images/portfolio/samarrun/21.jpg" width="940" height="899" alt="project">
+                    <img src="images/portfolio/samarrun/22.jpg" width="940" height="685" alt="project">
                 </div>
                 <!-- PORTFOLIO-IMAGES - column 8/12 -->
                 <!-- PORTFOLIO SIDEBAR - column 4/12 -->
                 <div class="col-md-4 portfolio-field">
-                    <!--<h3>Description</h3>
-
-                    <p>NEELADHRI CERAMICS has established a reputation for itself as a supplier of quality products,
-                        both functional and attractive, since its inception.</p>-->
 
                     <h3>Client</h3>
 
-                    <p>mySmaty</p>
+                    <p>BITTYE</p>
 
-                    <h3>Technology</h3>
+                    <h3>Services</h3>
                     <ul class="tags">
-                        <li><a>branding</a></li>
+                        <li><a>Website</a></li>
+                        <li><a>Branding</a></li>
+                        <li><a>Design</a></li>
                         <li><a>Marketing consultation</a></li>
                     </ul>
                 </div>
@@ -156,8 +127,8 @@
 
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
                 <div class="col-md-12 portfolio-field portfolio-nav bottom">
-                    <a class="icon button prev ajax" href="portfolio-item-03.html"></a>
-                    <a class="icon button next ajax" href="portfolio-axiom.html"></a>
+                    <a class="icon button prev ajax" href="additional%20files/portfolio-item-03.html"></a>
+                    <a class="icon button next ajax" href="portfolio-neeladhri-ceramics.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
@@ -196,6 +167,7 @@
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
+<?php include "scripts.php"?>
 </body>
 <!-- InstanceEnd -->
 </html>

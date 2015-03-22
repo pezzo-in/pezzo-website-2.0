@@ -47,24 +47,8 @@
     <link rel="stylesheet" class="base-skin" type="text/css" href="#">
     <!-- InstanceBeginEditable name="head" -->
     <!-- InstanceEndEditable -->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-53908315-1', 'auto');
-        ga('send', 'pageview');
-    </script>
 </head>
-<script type="text/javascript" async defer  data-pin-color="red" data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
 <body>
 <!-- CONTAINER -->
 <div class="container" id="container">
@@ -128,83 +112,70 @@
             </h2>
         </div>
         <!-- intro -->
+
+        <h2 class="section-title"><span><i class="fa fa-magic"></i>SERVICES</span></h2>
+        <!-- SERVICES -->
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <!-- service -->
+                <div class="service color1">
+                    <i class="fa fa-html5"></i>
+                    <h4>Web Development</h4>
+
+                    <p>We design and develop next generation websites and applications. We are proficient with the most
+                        modern
+                        technologies web has seen.</p>
+                </div>
+                <!-- service -->
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <!-- service -->
+                <div class="service color2">
+                    <i class="fa fa-bullhorn"></i>
+                    <h4>Marketing consultation</h4>
+
+                    <p>We breath market analysis and statistics. Our expertise in analyzing end-users' requirements provide
+                        our
+                        clients with the best exposure.</p>
+                </div>
+                <!-- service -->
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <!-- service -->
+                <div class="service color3">
+                    <i class="fa fa-camera"></i>
+                    <h4>Photography and Cinematography</h4>
+
+                    <p>We recognize and capture the moments in such a way that the viewing audience would also be captivated
+                        and
+                        drawn to the image.</p>
+                </div>
+                <!-- service -->
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <!-- service -->
+                <div class="service color4">
+                    <i class="fa fa-film"></i>
+                    <h4>Motion design</h4>
+
+                    <p>Being able to observe the things that move in a way no one has ever even imagined is our strength and
+                        imagining exactly what the client wants and adding our creativity is epic.</p>
+                </div>
+                <!-- service -->
+            </div>
+        </div>
+        <!-- SERVICES -->
     </div>
     <!-- column 8/12 -->
     <!-- column 4/12 -->
     <div class="col-md-4">
-        <h2 class="section-title"><span><i class="icon-twitter"></i>FACEBOOK FEEDS</span></h2>
+        <h2 class="section-title"><span><i class="icon-twitter"></i>SOCIAL FEEDS</span></h2>
 
-        <!--<div id="latest-tweets" class="widget-twitter" data-twitterId="388393979615179613" data-tweet-count="1"></div>-->
-
-        <!--<div id="fb-root"></div>-->
-        <script>(function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=236277823092390";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-        <!--<div class="fb-like-box" data-href="https://www.facebook.com/GenYAwakeningIndia" data-width="960"
-             data-colorscheme="light" data-show-faces="true" data-header="false"
-             data-stream="true" data-show-border="false">
-        </div>-->
+        <script type="text/javascript" class="rebelmouse-embed-script" src="https://www.rebelmouse.com/static/js-build/embed/embed.js?site=pezzo&height=750&flexible=0&dont_load_new_posts=0&more_button=0&post_limit=2&embed_type=sidebar&scrollbar_theme=default&show_rebelnav=1"></script>
     </div>
     <!-- column 4/12 -->
 </div>
 <!-- row -->
-<h2 class="section-title"><span><i class="fa fa-magic"></i>SERVICES</span></h2>
-<!-- SERVICES -->
-<div class="row">
-    <div class="col-sm-6 col-md-3">
-        <!-- service -->
-        <div class="service color1">
-            <i class="fa fa-html5"></i>
-            <h4>Web Development</h4>
-
-            <p>We design and develop next generation websites and applications. We are proficient with the most
-                modern
-                technologies web has seen.</p>
-        </div>
-        <!-- service -->
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <!-- service -->
-        <div class="service color2">
-            <i class="fa fa-bullhorn"></i>
-            <h4>Marketing consultation</h4>
-
-            <p>We breath market analysis and statistics. Our expertise in analyzing end-users' requirements provide
-                our
-                clients with the best exposure.</p>
-        </div>
-        <!-- service -->
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <!-- service -->
-        <div class="service color3">
-            <i class="fa fa-camera"></i>
-            <h4>Photography and Cinematography</h4>
-
-            <p>We recognize and capture the moments in such a way that the viewing audience would also be captivated
-                and
-                drawn to the image.</p>
-        </div>
-        <!-- service -->
-    </div>
-    <div class="col-sm-6 col-md-3">
-        <!-- service -->
-        <div class="service color4">
-            <i class="fa fa-film"></i>
-            <h4>Motion design</h4>
-
-            <p>Being able to observe the things that move in a way no one has ever even imagined is our strength and
-                imagining exactly what the client wants and adding our creativity is epic.</p>
-        </div>
-        <!-- service -->
-    </div>
-</div>
-<!-- SERVICES -->
 <h2 class="section-title"><span><i class="icon-layers-alt"></i>WORK PROCESS</span></h2>
 
 <div class="row">
@@ -720,7 +691,7 @@
                 <img src="images/portfolio/srisakthi/thumbnail.jpg" alt="portfolio-post" width="326" height="210">
 
                 <div class="mask"></div>
-                <a href="portfolio-srisakthi.html" class="ajax"></a>
+                <a href="portfolio-srisakthi.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">Sri Sakthi</h1>
@@ -733,7 +704,7 @@
                 <img src="images/portfolio/samarrun/thumbnail.jpg" alt="portfolio-post" width="326" height="210">
 
                 <div class="mask"></div>
-                <a href="portfolio-samarrun.html" class="ajax"></a>
+                <a href="portfolio-samarrun.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">SamArrun</h1>
@@ -746,7 +717,7 @@
                 <img src="images/portfolio/freshmakers/thumbnail.jpg" alt="portfolio-post" width="326" height="210">
 
                 <div class="mask"></div>
-                <a href="portfolio-freshmakers.html" class="ajax"></a>
+                <a href="portfolio-freshmakers.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">Fresh Makers</h1>
@@ -759,7 +730,7 @@
                 <img src="images/portfolio/bitDigit/thumbnail.jpg" alt="portfolio-post" width="326" height="210">
 
                 <div class="mask"></div>
-                <a href="portfolio-bitDigit.html" class="ajax"></a>
+                <a href="portfolio-bitDigit.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">BitDigit</h1>
@@ -785,7 +756,7 @@
                 <img src="images/portfolio/bittye/thumbnail.jpg" alt="portfolio-post" width="629" height="354">
 
                 <div class="mask"></div>
-                <a href="portfolio-bittye.html" class="ajax"></a>
+                <a href="portfolio-bittye.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">BITTYE</h1>
@@ -798,7 +769,7 @@
                 <img src="images/portfolio/neeladhri-ceramics/thumbnail.jpg" alt="portfolio-post" width="326" height="210">
 
                 <div class="mask"></div>
-                <a href="portfolio-neeladhri-ceramics.html" class="ajax"></a>
+                <a href="portfolio-neeladhri-ceramics.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">Neeladhri Ceramics</h1>
@@ -811,7 +782,7 @@
                 <img src="images/portfolio/parva/thumbnail.jpg" alt="portfolio-post" width="326" height="183">
 
                 <div class="mask"></div>
-                <a href="portfolio-parva.html" class="ajax"></a>
+                <a href="portfolio-parva.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="h1special">Parva</h1>
@@ -837,7 +808,7 @@
                 <img src="images/portfolio/castle-key/thumbnail.jpg" alt="portfolio-post" width="326" height="224">
 
                 <div class="mask"></div>
-                <a href="portfolio-castle-key.html" class="ajax"></a>
+                <a href="portfolio-castle-key.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="h1special">Castle key</h1>
@@ -864,7 +835,7 @@
                 <img src="images/portfolio/pearson/thumbnail.jpg" alt="portfolio-post" width="326" height="109">
 
                 <div class="mask"></div>
-                <a href="portfolio-pearson.html" class="ajax"></a>
+                <a href="portfolio-pearson.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">Pearson</h1>
@@ -877,7 +848,7 @@
                 <img src="images/portfolio/my-smaty/thumbnail.jpg" alt="portfolio-post" width="692" height="590">
 
                 <div class="mask"></div>
-                <a href="portfolio-mysmaty.html" class="ajax"></a>
+                <a href="portfolio-mysmaty.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">MySmaty</h1>
@@ -890,7 +861,7 @@
                 <img src="images/portfolio/axiom/thumbnail.jpg" alt="portfolio-post" width="326" height="245">
 
                 <div class="mask"></div>
-                <a href="portfolio-axiom.html" class="ajax"></a>
+                <a href="portfolio-axiom.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">Axiom</h1>
@@ -917,7 +888,7 @@
                 <img src="images/portfolio/money-and-me/thumbnail.jpg" alt="portfolio-post" width="326" height="223">
 
                 <div class="mask"></div>
-                <a href="portfolio-money-and-me.html" class="ajax"></a>
+                <a href="portfolio-money-and-me.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">Money &amp; me</h1>
@@ -930,7 +901,7 @@
                 <img src="images/portfolio/axinovate/thumbnail.jpg" alt="portfolio-post" width="326" height="183">
 
                 <div class="mask"></div>
-                <a href="portfolio-axinovate.html" class="ajax"></a>
+                <a href="portfolio-axinovate.php" class="ajax"></a>
             </div>
             <div class="media-cell-desc">
                 <h1 class="seospecial">Axinovate</h1>
@@ -1342,6 +1313,7 @@
 <script>
     $('iframe').height($('body').height());
 </script>
+<?php include "scripts.php"?>
 </body>
 <!-- InstanceEnd -->
 </html>

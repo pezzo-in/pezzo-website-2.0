@@ -6,7 +6,7 @@
 <title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
+   <meta name="description" content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
     <meta name="keywords"
           content="marketing consultation- web development, branding, consultation, seo, sem, smm, digital marketing, website optimization, web page optimization, digital, marketing, search engine marketing, search engine, social media marketing, creative designing, creative writing, print solutions, photography, cinematography, motion graphics, bangalore, mobile application development, marketing consultation, brand consultation, graphic designing, Search engine, search engine optimization, optimization, website, web, web development, web page">
     <meta name="author" content="PEZZO"><meta name="robots" content="index,follow">
@@ -47,7 +47,7 @@
 </head>
 
 
-<script type="text/javascript" async defer  data-pin-color="red" data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
 <body>
 
 <!-- CONTAINER -->
@@ -57,10 +57,7 @@
     <header class="header">
 
 
-        <h1>PEZZO</h1>
-
-        <p>marketing consultation</p>
-
+        <h1>MySmaty</h1>
         <!-- NAV MENU -->
         <ul class="vs-nav">
             <!-- InstanceBeginEditable name="Menu-Content" -->
@@ -92,13 +89,13 @@
 
                 <!-- TITLE - column 8/12 -->
                 <div class="col-md-8 portfolio-field portfolio-title">
-                    <h2>Neeladhri ceramics</h2>
+                    <h2>mySmaty</h2>
                 </div>
                 <!-- TITLE - column 8/12 -->
                 <!-- PORTFOLIO-NAV - column 4/12 -->
                 <div class="col-md-4 portfolio-field portfolio-nav">
-                    <a class="icon button prev ajax" href="portfolio-bittye.html"></a>
-                    <a class="icon button next ajax" href="portfolio-parva.html"></a>
+                    <a class="icon button prev ajax" href="portfolio-castle-key.php"></a>
+                    <a class="icon button next ajax" href="portfolio-axiom.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV - column 4/12 -->
@@ -109,37 +106,47 @@
 
                 <!-- PORTFOLIO-IMAGES - column 8/12 -->
                 <div class="col-md-8 portfolio-field">
-                    <img src="images/portfolio/neeladhri-ceramics/desktop1.jpg" alt="project">
-                    <img src="images/portfolio/neeladhri-ceramics/tablet1.jpg" alt="project">
-                    <img src="images/portfolio/neeladhri-ceramics/mobile1.jpg" alt="project">
-                    <img src="images/portfolio/neeladhri-ceramics/desktop2.jpg" alt="project">
-                    <img src="images/portfolio/neeladhri-ceramics/tablet2.jpg" alt="project">
-                    <img src="images/portfolio/neeladhri-ceramics/mobile2.jpg" alt="project">
-                    <img src="images/portfolio/neeladhri-ceramics/desktop3.jpg" alt="project">
+                    <img src="images/portfolio/my-smaty/1.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/3.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/4.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/5.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/6.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/7.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/8.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/9.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/9a.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/9b.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/9c.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/10.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/11.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/12.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/13.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/14.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/15.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/16.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/17.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/18.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/19.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/20.jpg" alt="MySmaty">
+                    <img src="images/portfolio/my-smaty/21.jpg" alt="MySmaty">
                 </div>
                 <!-- PORTFOLIO-IMAGES - column 8/12 -->
                 <!-- PORTFOLIO SIDEBAR - column 4/12 -->
                 <div class="col-md-4 portfolio-field">
-                    <h3>Description</h3>
+                    <!--<h3>Description</h3>
 
                     <p>NEELADHRI CERAMICS has established a reputation for itself as a supplier of quality products,
-                        both functional and attractive, since its inception.</p>
+                        both functional and attractive, since its inception.</p>-->
 
                     <h3>Client</h3>
 
-                    <p>Neeladhri Ceramics</p>
+                    <p>mySmaty</p>
 
                     <h3>Technology</h3>
                     <ul class="tags">
-                        <li><a>Website</a></li>
+                        <li><a>branding</a></li>
                         <li><a>Marketing consultation</a></li>
-                        <li><a>Google maps</a></li>
-                        <li><a>Design</a></li>
-                        <li><a>print</a></li>
                     </ul>
-                    <div class="launch">
-                        <a href="http://neeladhriceramics.com" class="button primary" target="_blank">LAUNCH PROJECT</a>
-                    </div>
                 </div>
                 <!-- PORTFOLIO SIDEBAR - column 4/12 -->
             </div>
@@ -149,8 +156,8 @@
 
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
                 <div class="col-md-12 portfolio-field portfolio-nav bottom">
-                    <a class="icon button prev ajax" href="portfolio-item-03.html"></a>
-                    <a class="icon button next ajax" href="portfolio-parva.html"></a>
+                    <a class="icon button prev ajax" href="additional%20files/portfolio-item-03.html"></a>
+                    <a class="icon button next ajax" href="portfolio-axiom.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
@@ -189,6 +196,7 @@
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
+<?php include "scripts.php"?>
 </body>
 <!-- InstanceEnd -->
 </html>

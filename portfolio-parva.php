@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js single-page-layout" data-classic-layout="false" data-mobile-only-classic-layout="true"
       data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig">
+<!-- InstanceBegin template="/Templates/layout.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-   <title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title> 
+<title>Pezzo | Marketing consultation | Branding | Web Development | Motion Design | Graphic Design | Photography | Cinematography </title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
+   <meta name="description" content="Marketing consultation- pezzo offering services like Marketing Consultation, Branding, Web Development, Motion Design, Graphic Design, Photography, Cinematography">
     <meta name="keywords"
           content="marketing consultation- web development, branding, consultation, seo, sem, smm, digital marketing, website optimization, web page optimization, digital, marketing, search engine marketing, search engine, social media marketing, creative designing, creative writing, print solutions, photography, cinematography, motion graphics, bangalore, mobile application development, marketing consultation, brand consultation, graphic designing, Search engine, search engine optimization, optimization, website, web, web development, web page">
-          <meta name="author" content="PEZZO"><meta name="robots" content="index,follow">
-<!-- FAV and TOUCH ICONS -->
+    <meta name="author" content="PEZZO"><meta name="robots" content="index,follow">
+    <!-- FAV and TOUCH ICONS -->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
     <script src="js/modernizr.custom.js"></script>
@@ -46,11 +47,41 @@
 </head>
 
 
-<script type="text/javascript" async defer  data-pin-color="red" data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
 <body>
 
 <!-- CONTAINER -->
 <div class="container" id="container">
+
+    <!-- HEADER -->
+    <header class="header">
+
+
+        <h1>PEZZO</h1>
+
+        <p>marketing consultation</p>
+
+        <!-- NAV MENU -->
+        <ul class="vs-nav">
+            <!-- InstanceBeginEditable name="Menu-Content" -->
+            <li><a href="index.php#/portfolio"><i title="back to portfolio" class="icon-left-open tooltip"
+                                                     data-tooltip-pos="left"></i></a></li>
+            <li><a href="index.php"><i title="go to home" class="icon-home-1 tooltip"
+                                          data-tooltip-pos="right"></i></a></li>
+            <!-- InstanceEndEditable -->
+
+        </ul>
+        <!-- NAV MENU -->
+        <!-- SEARCH -->
+        <div class="header-search">
+            <form role="search" method="get" id="search-form" action="#">
+                <input type="text" value="" name="s" id="search" placeholder="ENTER KEYWORD">
+                <input type="submit" id="search-submit" title="Search" value="→">
+            </form>
+        </div>
+        <!-- SEARCH -->
+    </header>
+    <!-- HEADER -->
     <!-- WRAPPER -->
     <div class="wrapper">
         <!-- InstanceBeginEditable name="Page-Content" -->
@@ -61,13 +92,13 @@
 
                 <!-- TITLE - column 8/12 -->
                 <div class="col-md-8 portfolio-field portfolio-title">
-                    <h2>Axinovate</h2>
+                    <h2>Parva</h2>
                 </div>
                 <!-- TITLE - column 8/12 -->
                 <!-- PORTFOLIO-NAV - column 4/12 -->
                 <div class="col-md-4 portfolio-field portfolio-nav">
-                    <a class="icon button prev ajax" href="portfolio-axiom.html"></a>
-                    <a class="icon button next ajax" href="portfolio-money-and-me.html"></a>
+                    <a class="icon button prev ajax" href="portfolio-neeladhri-ceramics.php"></a>
+                    <a class="icon button next ajax" href="portfolio-castle-key.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV - column 4/12 -->
@@ -78,34 +109,38 @@
 
                 <!-- PORTFOLIO-IMAGES - column 8/12 -->
                 <div class="col-md-8 portfolio-field">
-                    <img src="images/portfolio/axinovate/1.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/2.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/3.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/4.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/4a.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/4b.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/4c.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/4d.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/5.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/6.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/7.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/BusinessCards.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/Option1.jpg" alt="project">
-                    <img src="images/portfolio/axinovate/Option2.jpg" alt="project">
+                    <img src="images/portfolio/parva/desktop.jpg" alt="project">
+                    <img src="images/portfolio/parva/tablet.jpg" alt="project">
                 </div>
                 <!-- PORTFOLIO-IMAGES - column 8/12 -->
                 <!-- PORTFOLIO SIDEBAR - column 4/12 -->
                 <div class="col-md-4 portfolio-field">
+                    <h3>Description</h3>
+
+                    <p> PARVA are here to conceptualize, plan, improvise and execute your events so that you can just
+                        sit back and enjoy whether you are planning for a massive event or a small intimate wedding
+                        party.</p>
+
+                    <p>Weddings portray the union of not only two souls but also two families. At ‘PARVA’ we would like
+                        to be the mirror that reflects your joy and happiness through specializing in wedding planning
+                        and taking personal care , time , effort to ensure that the smallest of things go right on your
+                        big day right from welcoming the groom till bidding goodbye to the bride because we believe that
+                        ‘small things become great when done with love.’</p>
 
                     <h3>Client</h3>
 
-                    <p>Axinovate</p>
+                    <p>Parva</p>
 
                     <h3>Services</h3>
                     <ul class="tags">
-                        <li><a>branding</a></li>
-                        <li><a>Design</a></li>
+                        <li><a>Branding</a></li>
+                        <li><a>Photography</a></li>
+                        <li><a>Web design</a></li>
+                        <li><a>Marketing consultation</a></li>
                     </ul>
+                    <div class="launch">
+                        <a href="http://parva.co.in" class="button primary" target="_blank">LAUNCH PROJECT</a>
+                    </div>
                 </div>
                 <!-- PORTFOLIO SIDEBAR - column 4/12 -->
             </div>
@@ -115,8 +150,8 @@
 
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
                 <div class="col-md-12 portfolio-field portfolio-nav bottom">
-                    <a class="icon button prev ajax" href="portfolio-item-03.html"></a>
-                    <a class="icon button next ajax" href="portfolio-item-02.html"></a>
+                    <a class="icon button prev ajax" href="additional%20files/portfolio-item-03.html"></a>
+                    <a class="icon button next ajax" href="portfolio-castle-key.php"></a>
                     <a class="button back" href="#/portfolio"></a>
                 </div>
                 <!-- PORTFOLIO-NAV BOTTOM - column 12/12 -->
@@ -155,7 +190,7 @@
 <script src="js/classie.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script src="js/main.js"></script>
+<?php include "scripts.php"?>
 </body>
 <!-- InstanceEnd -->
-<!-- Mirrored from themes.PEZZO.org/PEZZO/portfolio-item-01.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Jun 2014 04:53:58 GMT -->
 </html>
